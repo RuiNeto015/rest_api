@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<family xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http//estg.ipp.pt/familyTypes" xsi:schemaLocation="http//estg.ipp.pt/familyTypes familyTypes.xsd">
+
+    <numberOfElements>2</numberOfElements>
+    <country>Spain</country>
+    <city>Sevilha</city>
+    <contacts>
+        <phoneNumber indicative="+351">914672073</phoneNumber>
+        <email>abc@gmail.com</email>
+    </contacts>
+    <members>
+        <member>
+            <name>
+                <firstName>Rui</firstName>
+                <lastName>Neto</lastName>
+            </name>
+            <birthdayDate format="yyyy-mm-dd">2002-02-20</birthdayDate>
+            <genre>masculine</genre>
+        </member>
+        <member>
+            <name>
+                <firstName>Sofia</firstName>
+                <lastName>Neto</lastName>
+            </name>
+            <birthdayDate format="yyyy-mm-dd">1999-10-23</birthdayDate>
+            <genre>feminine</genre>
+        </member>
+    </members>
+    <datePreferences>
+        <datePreference format="yyyy-mm-dd">2021-09-19</datePreference>
+        <datePreference format="yyyy-mm-dd">2021-09-20</datePreference>
+        <datePreference format="yyyy-mm-dd">2021-09-21</datePreference>
+    </datePreferences>
+</family>

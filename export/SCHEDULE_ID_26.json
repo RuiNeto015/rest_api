@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-11-15",
+  "location":{
+    "country":"Mexico",
+    "city":"Cidade do Mexico"
+  },
+  "contacts":{
+    "phoneNumber":"34689765",
+    "email":"alejandramargarita@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Alejandra",
+        "lastName":"Margarita"
+      },
+      "birthdayDate":"1972-03-15",
+      "genre":"feminine"
+    },
+    {
+      "name":{
+        "firstName":"Joana",
+        "lastName":"Guadalupe"
+      },
+      "birthdayDate":"1981-02-20",
+      "genre":"feminine"
+    }
+  ]
+}

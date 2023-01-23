@@ -1,0 +1,88 @@
+22:25:01.458	SERVER	admin	OK	Server was started (port: 1984).
+22:25:01.522	SERVER	admin	OK	HTTP Server was started (port: 8984).
+22:25:28.321	[0:0:0:0:0:0:0:1]:63372	admin	REQUEST	[GET] /getAvailableSlotsInTimeInterval?startDate=2021-12-25&finishDate=2021-12-26
+22:25:28.789	[0:0:0:0:0:0:0:1]:63372	admin	200		471.68 ms
+22:25:36.456	[0:0:0:0:0:0:0:1]:63372	admin	REQUEST	[GET] /getSchedules
+22:25:36.477	[0:0:0:0:0:0:0:1]:63372	admin	200		21.04 ms
+22:26:11.185	[0:0:0:0:0:0:0:1]:63372	admin	REQUEST	[GET] /getAvailableSlotsInTimeInterval?startDate=2021-12-22&finishDate=2021-12-26
+22:26:11.203	[0:0:0:0:0:0:0:1]:63372	admin	200		18.79 ms
+22:26:24.099	[0:0:0:0:0:0:0:1]:63372	admin	REQUEST	[GET] /getAvailableSlotsInTimeInterval
+22:26:24.110	[0:0:0:0:0:0:0:1]:63372	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 49/11: [basex:restxq] Value of "startDate" must be xs:date, supplied: ().	12.02 ms
+22:26:27.875	[0:0:0:0:0:0:0:1]:63372	admin	REQUEST	[GET] /getAvailableSlotsInTimeInterval?startDate=2021-12-22&finishDate=2021-12-26
+22:26:27.893	[0:0:0:0:0:0:0:1]:63372	admin	200		18.69 ms
+22:27:28.121	[0:0:0:0:0:0:0:1]:63388	admin	REQUEST	[POST] /add
+22:27:28.153	[0:0:0:0:0:0:0:1]:63388	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 18/58: [db:open] Database 'agenda' was not found.	31.36 ms
+22:44:15.200	[0:0:0:0:0:0:0:1]:54280	admin	REQUEST	[POST] /add
+22:44:15.306	[0:0:0:0:0:0:0:1]:54280	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available	106.22 ms
+22:44:39.139	[0:0:0:0:0:0:0:1]:54280	admin	REQUEST	[POST] /add
+22:44:39.166	[0:0:0:0:0:0:0:1]:54280	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available	28.01 ms
+22:44:40.704	[0:0:0:0:0:0:0:1]:54280	admin	REQUEST	[POST] /add
+22:44:40.734	[0:0:0:0:0:0:0:1]:54280	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available	29.59 ms
+22:44:45.347	[0:0:0:0:0:0:0:1]:54280	admin	REQUEST	[POST] /add
+22:44:45.380	[0:0:0:0:0:0:0:1]:54280	admin	200		34.18 ms
+22:44:51.709	[0:0:0:0:0:0:0:1]:54280	admin	REQUEST	[GET] /getSchedules
+22:44:51.728	[0:0:0:0:0:0:0:1]:54280	admin	200		18.23 ms
+23:09:03.636	[0:0:0:0:0:0:0:1]:55571	admin	REQUEST	[POST] /add
+23:09:03.670	[0:0:0:0:0:0:0:1]:55571	admin	200		34.07 ms
+23:09:49.574	[0:0:0:0:0:0:0:1]:55571	admin	REQUEST	[GET] /getSchedules
+23:09:49.597	[0:0:0:0:0:0:0:1]:55571	admin	200		22.19 ms
+23:11:25.943	[0:0:0:0:0:0:0:1]:55578	admin	REQUEST	[POST] /add
+23:11:25.974	[0:0:0:0:0:0:0:1]:55578	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available	30.39 ms
+23:12:18.791	[0:0:0:0:0:0:0:1]:55578	admin	REQUEST	[POST] /add
+23:12:18.815	[0:0:0:0:0:0:0:1]:55578	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available	24.41 ms
+23:12:24.051	[0:0:0:0:0:0:0:1]:55578	admin	REQUEST	[POST] /add
+23:12:24.072	[0:0:0:0:0:0:0:1]:55578	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available	21.34 ms
+23:12:31.093	[0:0:0:0:0:0:0:1]:55578	admin	REQUEST	[POST] /add
+23:12:31.115	[0:0:0:0:0:0:0:1]:55578	admin	200		23.21 ms
+23:12:47.432	[0:0:0:0:0:0:0:1]:55578	admin	REQUEST	[POST] /add
+23:12:47.455	[0:0:0:0:0:0:0:1]:55578	admin	200		23.31 ms
+23:13:11.207	[0:0:0:0:0:0:0:1]:55578	admin	REQUEST	[POST] /add
+23:13:11.241	[0:0:0:0:0:0:0:1]:55578	admin	200		33.93 ms
+23:14:11.733	[0:0:0:0:0:0:0:1]:55583	admin	REQUEST	[POST] /add
+23:14:11.778	[0:0:0:0:0:0:0:1]:55583	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available	44.41 ms
+23:15:36.081	[0:0:0:0:0:0:0:1]:55586	admin	REQUEST	[POST] /add
+23:15:36.100	[0:0:0:0:0:0:0:1]:55586	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 24/11: [ERROR] Non of DatePreferences are available Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 14/44	18.08 ms
+23:18:20.754	[0:0:0:0:0:0:0:1]:55596	admin	REQUEST	[POST] /add
+23:18:20.780	[0:0:0:0:0:0:0:1]:55596	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 24/11: [ERROR] Non of DatePreferences are available Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 14/44	25.83 ms
+23:18:38.768	[0:0:0:0:0:0:0:1]:55596	admin	REQUEST	[POST] /add
+23:18:38.782	[0:0:0:0:0:0:0:1]:55596	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 24/11: [ERROR] Non of DatePreferences are available Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 14/44	14.23 ms
+23:23:59.173	[0:0:0:0:0:0:0:1]:61484	admin	REQUEST	[POST] /add
+23:23:59.196	[0:0:0:0:0:0:0:1]:61484	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 24/11: [ERROR] Non of DatePreferences are available Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 14/44	22.7 ms
+23:24:01.441	[0:0:0:0:0:0:0:1]:61484	admin	REQUEST	[POST] /add
+23:24:01.460	[0:0:0:0:0:0:0:1]:61484	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 24/11: [ERROR] Non of DatePreferences are available Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 14/44	19.02 ms
+23:24:02.233	[0:0:0:0:0:0:0:1]:61484	admin	REQUEST	[POST] /add
+23:24:02.244	[0:0:0:0:0:0:0:1]:61484	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 24/11: [ERROR] Non of DatePreferences are available Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 14/44	10.83 ms
+23:28:48.131	[0:0:0:0:0:0:0:1]:61587	admin	REQUEST	[POST] /add
+23:28:48.148	[0:0:0:0:0:0:0:1]:61587	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 14/44	16.94 ms
+23:28:49.212	[0:0:0:0:0:0:0:1]:61587	admin	REQUEST	[POST] /add
+23:28:49.228	[0:0:0:0:0:0:0:1]:61587	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 14/44	15.73 ms
+23:29:41.201	[0:0:0:0:0:0:0:1]:61587	admin	REQUEST	[POST] /add
+23:29:41.223	[0:0:0:0:0:0:0:1]:61587	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available	21.25 ms
+23:31:22.589	[0:0:0:0:0:0:0:1]:61590	admin	REQUEST	[POST] /add
+23:31:22.604	[0:0:0:0:0:0:0:1]:61590	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available	15.46 ms
+23:34:54.520	[0:0:0:0:0:0:0:1]:61624	admin	REQUEST	[POST] /add
+23:34:54.539	[0:0:0:0:0:0:0:1]:61624	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 24/11: [ERROR] Non of DatePreferences are available	19.03 ms
+23:35:00.211	[0:0:0:0:0:0:0:1]:61624	admin	REQUEST	[POST] /add
+23:35:00.231	[0:0:0:0:0:0:0:1]:61624	admin	200		21.05 ms
+23:35:39.933	[0:0:0:0:0:0:0:1]:61624	admin	REQUEST	[POST] /add
+23:35:39.955	[0:0:0:0:0:0:0:1]:61624	admin	200		21.91 ms
+23:35:42.277	[0:0:0:0:0:0:0:1]:61624	admin	REQUEST	[GET] /getSchedules
+23:35:42.297	[0:0:0:0:0:0:0:1]:61624	admin	200		19.78 ms
+23:35:54.808	[0:0:0:0:0:0:0:1]:61624	admin	REQUEST	[POST] /add
+23:35:54.827	[0:0:0:0:0:0:0:1]:61624	admin	200		19.78 ms
+23:35:56.671	[0:0:0:0:0:0:0:1]:61624	admin	REQUEST	[GET] /getSchedules
+23:35:56.696	[0:0:0:0:0:0:0:1]:61624	admin	200		24.78 ms
+23:36:20.095	[0:0:0:0:0:0:0:1]:61624	admin	REQUEST	[POST] /add
+23:36:20.111	[0:0:0:0:0:0:0:1]:61624	admin	200		16.3 ms
+23:36:28.657	[0:0:0:0:0:0:0:1]:61624	admin	REQUEST	[GET] /getSchedules
+23:36:28.672	[0:0:0:0:0:0:0:1]:61624	admin	200		15.19 ms
+23:36:47.948	[0:0:0:0:0:0:0:1]:61624	admin	REQUEST	[POST] /add
+23:36:47.968	[0:0:0:0:0:0:0:1]:61624	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 24/11: [ERROR] Non of DatePreferences are available	20.0 ms
+23:36:54.226	[0:0:0:0:0:0:0:1]:61624	admin	REQUEST	[POST] /add
+23:36:54.241	[0:0:0:0:0:0:0:1]:61624	admin	200		14.84 ms
+23:36:56.915	[0:0:0:0:0:0:0:1]:61624	admin	REQUEST	[GET] /getSchedules
+23:36:56.939	[0:0:0:0:0:0:0:1]:61624	admin	200		23.63 ms
+23:40:14.577	[0:0:0:0:0:0:0:1]:61635	admin	REQUEST	[GET] /getSchedules
+23:40:14.586	[0:0:0:0:0:0:0:1]:61635	admin	200		9.16 ms
+23:40:26.402	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+23:40:26.403	SERVER	admin	OK	Server was stopped (port: 1984).

@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-10-04",
+  "location":{
+    "country":"Madagascar",
+    "city":"Mahajanga"
+  },
+  "contacts":{
+    "phoneNumber":"199876900",
+    "email":"zaynetemalik@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Zaynete",
+        "lastName":"Malik"
+      },
+      "birthdayDate":"1995-02-02",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Martin",
+        "lastName":"Garrix"
+      },
+      "birthdayDate":"1993-11-05",
+      "genre":"masculine"
+    }
+  ]
+}

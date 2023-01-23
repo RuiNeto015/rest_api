@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-09-19",
+  "location":{
+    "country":"Spain",
+    "city":"Sevilha"
+  },
+  "contacts":{
+    "phoneNumber":"918723456",
+    "email":"ruijorge@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Rui",
+        "lastName":"Jorge"
+      },
+      "birthdayDate":"2002-02-20",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Sofia",
+        "lastName":"Neto"
+      },
+      "birthdayDate":"1999-10-23",
+      "genre":"feminine"
+    }
+  ]
+}

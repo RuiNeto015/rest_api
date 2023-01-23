@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-10-21",
+  "location":{
+    "country":"India",
+    "city":"Nova Delhi"
+  },
+  "contacts":{
+    "phoneNumber":"365789345",
+    "email":"rajakshay@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Raj",
+        "lastName":"Akshay"
+      },
+      "birthdayDate":"1972-03-15",
+      "genre":"feminine"
+    },
+    {
+      "name":{
+        "firstName":"Abdul",
+        "lastName":"Akshay"
+      },
+      "birthdayDate":"1981-02-20",
+      "genre":"masculine"
+    }
+  ]
+}

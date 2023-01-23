@@ -1,0 +1,14 @@
+11:23:44.346	SERVER	admin	OK	Server was started (port: 1984).
+11:23:44.412	SERVER	admin	OK	HTTP Server was started (port: 8984).
+11:23:48.611	[0:0:0:0:0:0:0:1]:58144	admin	REQUEST	[GET] /getSchedules
+11:23:49.056	[0:0:0:0:0:0:0:1]:58144	admin	200		446.43 ms
+14:05:42.864	SERVER	admin	OK	Server was started (port: 1984).
+14:05:42.937	SERVER	admin	OK	HTTP Server was started (port: 8984).
+14:06:16.927	[0:0:0:0:0:0:0:1]:54041	admin	REQUEST	[POST] /add
+14:06:17.541	[0:0:0:0:0:0:0:1]:54041	admin	200		614.76 ms
+14:09:51.541	[0:0:0:0:0:0:0:1]:58567	admin	REQUEST	[GET] /export
+14:09:51.581	[0:0:0:0:0:0:0:1]:58567	admin	200		40.22 ms
+14:10:33.420	[0:0:0:0:0:0:0:1]:58567	admin	REQUEST	[GET] /export
+14:10:33.448	[0:0:0:0:0:0:0:1]:58567	admin	200		27.67 ms
+14:11:47.333	[0:0:0:0:0:0:0:1]:65243	admin	REQUEST	[GET] /getSchedules
+14:11:47.341	[0:0:0:0:0:0:0:1]:65243	admin	200		8.57 ms

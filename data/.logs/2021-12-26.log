@@ -1,0 +1,256 @@
+00:10:25.963	[0:0:0:0:0:0:0:1]:64609	admin	REQUEST	[GET] /export
+00:10:25.987	[0:0:0:0:0:0:0:1]:64609	admin	200		24.85 ms
+00:15:55.145	[0:0:0:0:0:0:0:1]:61829	admin	REQUEST	[GET] /export
+00:15:55.174	[0:0:0:0:0:0:0:1]:61829	admin	200		28.91 ms
+00:17:58.092	[0:0:0:0:0:0:0:1]:61834	admin	REQUEST	[GET] /export
+00:17:58.123	[0:0:0:0:0:0:0:1]:61834	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/20: [json:parse] Stopped at ., 1/1: [json:parse] (1:1): Unexpected JSON value: '<schedule>...'.	30.85 ms
+00:18:21.542	[0:0:0:0:0:0:0:1]:61834	admin	REQUEST	[GET] /export
+00:18:21.562	[0:0:0:0:0:0:0:1]:61834	admin	200		20.58 ms
+00:18:51.462	[0:0:0:0:0:0:0:1]:61834	admin	REQUEST	[GET] /export
+00:18:51.479	[0:0:0:0:0:0:0:1]:61834	admin	200		17.45 ms
+00:19:30.160	[0:0:0:0:0:0:0:1]:61834	admin	REQUEST	[GET] /export
+00:19:30.178	[0:0:0:0:0:0:0:1]:61834	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 83/20: [json:parse] Stopped at ., 1/1: [json:parse] (1:1): Unexpected JSON value: '<schedule>...'.	17.95 ms
+00:24:06.984	[0:0:0:0:0:0:0:1]:61930	admin	REQUEST	[GET] /export
+00:24:07.002	[0:0:0:0:0:0:0:1]:61930	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/24: [FOJS0006] Element 'schedule' has invalid namespace: ''.	18.27 ms
+00:24:30.406	[0:0:0:0:0:0:0:1]:61930	admin	REQUEST	[GET] /export
+00:24:30.421	[0:0:0:0:0:0:0:1]:61930	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/24: [FOJS0006] Element 'schedule' has invalid namespace: ''.	15.07 ms
+00:25:40.007	[0:0:0:0:0:0:0:1]:64791	admin	REQUEST	[GET] /export
+00:25:40.024	[0:0:0:0:0:0:0:1]:64791	admin	200		17.53 ms
+00:26:52.117	[0:0:0:0:0:0:0:1]:64805	admin	REQUEST	[GET] /export
+00:26:52.144	[0:0:0:0:0:0:0:1]:64805	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/24: [FOJS0006] Element 'schedule' has invalid namespace: ''.	27.01 ms
+00:42:59.375	[0:0:0:0:0:0:0:1]:64910	admin	REQUEST	[POST] /add
+00:42:59.517	[0:0:0:0:0:0:0:1]:64910	admin	200		142.61 ms
+00:43:04.262	[0:0:0:0:0:0:0:1]:64910	admin	REQUEST	[GET] /getSchedules
+00:43:04.287	[0:0:0:0:0:0:0:1]:64910	admin	200		25.53 ms
+00:44:03.450	[0:0:0:0:0:0:0:1]:64910	admin	REQUEST	[GET] /export
+00:44:03.455	[0:0:0:0:0:0:0:1]:64910	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 83/23: [FOJS0006] Element 'schedule' has invalid namespace: ''.	6.08 ms
+00:44:31.033	[0:0:0:0:0:0:0:1]:64910	admin	REQUEST	[GET] /export
+00:44:31.040	[0:0:0:0:0:0:0:1]:64910	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 83/23: [FOJS0006] Element 'schedule' has invalid namespace: ''.	7.2 ms
+00:44:32.088	[0:0:0:0:0:0:0:1]:64910	admin	REQUEST	[GET] /export
+00:44:32.091	[0:0:0:0:0:0:0:1]:64910	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 83/23: [FOJS0006] Element 'schedule' has invalid namespace: ''.	3.94 ms
+00:44:53.437	[0:0:0:0:0:0:0:1]:64910	admin	REQUEST	[GET] /getSchedules
+00:44:53.442	[0:0:0:0:0:0:0:1]:64910	admin	200		5.3 ms
+00:47:42.894	[0:0:0:0:0:0:0:1]:64939	admin	REQUEST	[POST] /add
+00:47:42.916	[0:0:0:0:0:0:0:1]:64939	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 16/21: [XQDY0102] Duplicate namespace declaration: ''.	22.49 ms
+00:48:18.659	[0:0:0:0:0:0:0:1]:64939	admin	REQUEST	[POST] /add
+00:48:18.677	[0:0:0:0:0:0:0:1]:64939	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 16/21: [XQDY0102] Duplicate namespace declaration: ''.	17.39 ms
+00:48:49.071	[0:0:0:0:0:0:0:1]:64939	admin	REQUEST	[POST] /add
+00:48:49.089	[0:0:0:0:0:0:0:1]:64939	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 16/21: [XQDY0102] Duplicate namespace declaration: ''.	17.22 ms
+00:48:54.787	[0:0:0:0:0:0:0:1]:64939	admin	REQUEST	[POST] /add
+00:48:54.808	[0:0:0:0:0:0:0:1]:64939	admin	200		21.44 ms
+00:48:58.430	[0:0:0:0:0:0:0:1]:64939	admin	REQUEST	[GET] /getSchedules
+00:48:58.446	[0:0:0:0:0:0:0:1]:64939	admin	200		15.11 ms
+00:51:12.250	[0:0:0:0:0:0:0:1]:64973	admin	REQUEST	[POST] /add
+00:51:12.269	[0:0:0:0:0:0:0:1]:64973	admin	200		20.42 ms
+00:51:14.244	[0:0:0:0:0:0:0:1]:64973	admin	REQUEST	[GET] /getSchedules
+00:51:14.253	[0:0:0:0:0:0:0:1]:64973	admin	200		9.23 ms
+00:53:04.589	[0:0:0:0:0:0:0:1]:64978	admin	REQUEST	[POST] /add
+00:53:04.613	[0:0:0:0:0:0:0:1]:64978	admin	200		23.66 ms
+00:53:07.257	[0:0:0:0:0:0:0:1]:64978	admin	REQUEST	[GET] /getSchedules
+00:53:07.274	[0:0:0:0:0:0:0:1]:64978	admin	200		17.43 ms
+00:53:10.330	[0:0:0:0:0:0:0:1]:64978	admin	REQUEST	[GET] /getSchedules
+00:53:10.336	[0:0:0:0:0:0:0:1]:64978	admin	200		5.99 ms
+00:53:28.949	[0:0:0:0:0:0:0:1]:64978	admin	REQUEST	[GET] /export
+00:53:28.955	[0:0:0:0:0:0:0:1]:64978	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/23: [FOJS0006] Invalid element: 'Q{http://www.w3.org/2005/xpath-functions}schedule'	6.4 ms
+00:55:05.045	[0:0:0:0:0:0:0:1]:64983	admin	REQUEST	[POST] /add
+00:55:05.067	[0:0:0:0:0:0:0:1]:64983	admin	200		21.58 ms
+00:55:08.151	[0:0:0:0:0:0:0:1]:64983	admin	REQUEST	[GET] /getSchedules
+00:55:08.160	[0:0:0:0:0:0:0:1]:64983	admin	200		10.96 ms
+01:15:18.844	SERVER	admin	OK	Server was started (port: 1984).
+01:15:18.901	SERVER	admin	OK	HTTP Server was started (port: 8984).
+01:15:28.843	[0:0:0:0:0:0:0:1]:59190	admin	REQUEST	[GET] /export
+01:15:29.262	[0:0:0:0:0:0:0:1]:59190	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/17: [FODC0002] Resource 'SCHEDULE_ID_1Active22021-12-22PortugalSanto TirsoSimão20001-12-03Simão20001-12-03' does not exist.	421.39 ms
+01:20:04.776	[0:0:0:0:0:0:0:1]:59213	admin	REQUEST	[GET] /export
+01:20:04.802	[0:0:0:0:0:0:0:1]:59213	admin	200		27.42 ms
+01:21:23.788	[0:0:0:0:0:0:0:1]:62863	admin	REQUEST	[GET] /export
+01:21:23.804	[0:0:0:0:0:0:0:1]:62863	admin	200		16.27 ms
+01:21:55.424	[0:0:0:0:0:0:0:1]:62863	admin	REQUEST	[GET] /export
+01:21:55.440	[0:0:0:0:0:0:0:1]:62863	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 83/23: [XPTY0004] Invalid 'format' value 'json'; must be one of: direct,attributes,jsonml,basic,xquery.	15.37 ms
+01:22:13.550	[0:0:0:0:0:0:0:1]:62863	admin	REQUEST	[GET] /export
+01:22:13.565	[0:0:0:0:0:0:0:1]:62863	admin	200		14.93 ms
+01:25:51.399	[0:0:0:0:0:0:0:1]:62878	admin	REQUEST	[GET] /export
+01:25:51.414	[0:0:0:0:0:0:0:1]:62878	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/19: [json:parse] Stopped at ., 1/1: [json:parse] (1:1): Unexpected JSON value: 'SCHEDULE_ID_1Ac...'.	14.85 ms
+01:26:22.412	[0:0:0:0:0:0:0:1]:62878	admin	REQUEST	[GET] /export
+01:26:22.432	[0:0:0:0:0:0:0:1]:62878	admin	200		19.77 ms
+01:29:46.434	[0:0:0:0:0:0:0:1]:62937	admin	REQUEST	[POST] /add
+01:29:46.559	[0:0:0:0:0:0:0:1]:62937	admin	200		126.43 ms
+01:32:22.052	[0:0:0:0:0:0:0:1]:62941	admin	REQUEST	[POST] /add
+01:32:22.088	[0:0:0:0:0:0:0:1]:62941	admin	200		36.78 ms
+01:32:24.996	[0:0:0:0:0:0:0:1]:62941	admin	REQUEST	[GET] /getSchedules
+01:32:25.009	[0:0:0:0:0:0:0:1]:62941	admin	200		12.81 ms
+01:43:30.128	[0:0:0:0:0:0:0:1]:52763	admin	REQUEST	[GET] /getSchedules
+01:43:30.140	[0:0:0:0:0:0:0:1]:52763	admin	200		12.32 ms
+01:43:31.921	[0:0:0:0:0:0:0:1]:52763	admin	REQUEST	[GET] /export
+01:43:31.928	[0:0:0:0:0:0:0:1]:52763	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/24: [FOJS0006] Invalid element: 'Q{http://www.w3.org/2005/xpath-functions}schedule'	6.97 ms
+01:44:07.438	[0:0:0:0:0:0:0:1]:52763	admin	REQUEST	[GET] /export
+01:44:07.447	[0:0:0:0:0:0:0:1]:52763	admin	200		9.51 ms
+01:44:24.247	[0:0:0:0:0:0:0:1]:52763	admin	REQUEST	[GET] /export
+01:44:24.255	[0:0:0:0:0:0:0:1]:52763	admin	200		7.97 ms
+01:44:25.176	[0:0:0:0:0:0:0:1]:52763	admin	REQUEST	[GET] /export
+01:44:25.182	[0:0:0:0:0:0:0:1]:52763	admin	200		5.45 ms
+01:44:40.134	[0:0:0:0:0:0:0:1]:52763	admin	REQUEST	[GET] /export
+01:44:40.143	[0:0:0:0:0:0:0:1]:52763	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/24: [FOJS0006] Invalid element: 'Q{http://www.w3.org/2005/xpath-functions}schedule'	9.33 ms
+01:44:50.029	[0:0:0:0:0:0:0:1]:52763	admin	REQUEST	[GET] /export
+01:44:50.035	[0:0:0:0:0:0:0:1]:52763	admin	200		5.79 ms
+01:45:04.922	[0:0:0:0:0:0:0:1]:52763	admin	REQUEST	[GET] /export
+01:45:04.927	[0:0:0:0:0:0:0:1]:52763	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/24: [FOJS0006] Element 'null' must have no text nodes.	5.45 ms
+01:45:36.526	[0:0:0:0:0:0:0:1]:52763	admin	REQUEST	[GET] /export
+01:45:36.531	[0:0:0:0:0:0:0:1]:52763	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/24: [FOJS0006] Invalid element: 'Q{http://www.w3.org/2005/xpath-functions}element'	5.44 ms
+20:08:46.277	SERVER	admin	OK	Server was started (port: 1984).
+20:08:46.363	SERVER	admin	OK	HTTP Server was started (port: 8984).
+20:40:03.465	[0:0:0:0:0:0:0:1]:64517	admin	REQUEST	[GET] /export
+20:40:03.852	[0:0:0:0:0:0:0:1]:64517	admin	200		388.18 ms
+20:41:00.314	[0:0:0:0:0:0:0:1]:64517	admin	REQUEST	[GET] /export
+20:41:00.329	[0:0:0:0:0:0:0:1]:64517	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 88/23: [FOJS0006] Element 'string' must have no child elements.	15.28 ms
+20:41:56.348	[0:0:0:0:0:0:0:1]:64517	admin	REQUEST	[GET] /export
+20:41:56.362	[0:0:0:0:0:0:0:1]:64517	admin	200		14.16 ms
+20:42:19.006	[0:0:0:0:0:0:0:1]:64517	admin	REQUEST	[GET] /export
+20:42:19.027	[0:0:0:0:0:0:0:1]:64517	admin	200		21.3 ms
+20:42:26.750	[0:0:0:0:0:0:0:1]:64517	admin	REQUEST	[GET] /export
+20:42:26.761	[0:0:0:0:0:0:0:1]:64517	admin	200		11.45 ms
+20:42:43.927	[0:0:0:0:0:0:0:1]:64517	admin	REQUEST	[GET] /getSchedules
+20:42:43.936	[0:0:0:0:0:0:0:1]:64517	admin	200		8.65 ms
+20:43:53.723	[0:0:0:0:0:0:0:1]:64525	admin	REQUEST	[GET] /getSchedules
+20:43:53.732	[0:0:0:0:0:0:0:1]:64525	admin	200		9.6 ms
+20:43:56.299	[0:0:0:0:0:0:0:1]:64525	admin	REQUEST	[GET] /export
+20:43:56.315	[0:0:0:0:0:0:0:1]:64525	admin	200		15.83 ms
+20:44:14.474	[0:0:0:0:0:0:0:1]:64525	admin	REQUEST	[GET] /export
+20:44:14.483	[0:0:0:0:0:0:0:1]:64525	admin	200		8.84 ms
+20:44:21.379	[0:0:0:0:0:0:0:1]:64525	admin	REQUEST	[GET] /export
+20:44:21.389	[0:0:0:0:0:0:0:1]:64525	admin	200		9.54 ms
+20:44:35.639	[0:0:0:0:0:0:0:1]:64525	admin	REQUEST	[GET] /export
+20:44:35.653	[0:0:0:0:0:0:0:1]:64525	admin	200		14.01 ms
+20:44:46.610	[0:0:0:0:0:0:0:1]:64525	admin	REQUEST	[GET] /export
+20:44:46.616	[0:0:0:0:0:0:0:1]:64525	admin	200		5.61 ms
+20:45:30.758	[0:0:0:0:0:0:0:1]:64525	admin	REQUEST	[GET] /export
+20:45:30.765	[0:0:0:0:0:0:0:1]:64525	admin	200		7.73 ms
+20:45:59.190	[0:0:0:0:0:0:0:1]:64525	admin	REQUEST	[GET] /getSchedules
+20:45:59.196	[0:0:0:0:0:0:0:1]:64525	admin	200		5.41 ms
+20:46:02.052	[0:0:0:0:0:0:0:1]:64525	admin	REQUEST	[GET] /export
+20:46:02.064	[0:0:0:0:0:0:0:1]:64525	admin	200		12.92 ms
+20:47:29.845	[0:0:0:0:0:0:0:1]:64530	admin	REQUEST	[GET] /export
+20:47:29.852	[0:0:0:0:0:0:0:1]:64530	admin	200		7.41 ms
+20:47:41.573	[0:0:0:0:0:0:0:1]:64530	admin	REQUEST	[GET] /export
+20:47:41.581	[0:0:0:0:0:0:0:1]:64530	admin	200		8.67 ms
+20:47:54.162	[0:0:0:0:0:0:0:1]:64530	admin	REQUEST	[GET] /export
+20:47:54.170	[0:0:0:0:0:0:0:1]:64530	admin	200		7.71 ms
+20:48:22.060	[0:0:0:0:0:0:0:1]:64530	admin	REQUEST	[GET] /export
+20:48:22.065	[0:0:0:0:0:0:0:1]:64530	admin	200		5.0 ms
+20:48:45.210	[0:0:0:0:0:0:0:1]:64530	admin	REQUEST	[GET] /export
+20:48:45.219	[0:0:0:0:0:0:0:1]:64530	admin	200		9.47 ms
+20:49:06.231	[0:0:0:0:0:0:0:1]:64530	admin	REQUEST	[GET] /export
+20:49:06.238	[0:0:0:0:0:0:0:1]:64530	admin	200		6.87 ms
+20:49:10.591	[0:0:0:0:0:0:0:1]:64530	admin	REQUEST	[GET] /export
+20:49:10.596	[0:0:0:0:0:0:0:1]:64530	admin	200		5.16 ms
+20:49:15.437	[0:0:0:0:0:0:0:1]:64530	admin	REQUEST	[GET] /export
+20:49:15.442	[0:0:0:0:0:0:0:1]:64530	admin	200		5.51 ms
+20:49:25.564	[0:0:0:0:0:0:0:1]:64530	admin	REQUEST	[GET] /export
+20:49:25.571	[0:0:0:0:0:0:0:1]:64530	admin	200		7.08 ms
+20:50:02.458	[0:0:0:0:0:0:0:1]:64530	admin	REQUEST	[GET] /export
+20:50:02.469	[0:0:0:0:0:0:0:1]:64530	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 83/24: [FOJS0006] Element 'null' must have no text nodes.	12.9 ms
+20:51:16.876	[0:0:0:0:0:0:0:1]:64537	admin	REQUEST	[GET] /export
+20:51:16.881	[0:0:0:0:0:0:0:1]:64537	admin	200		4.98 ms
+20:51:57.343	[0:0:0:0:0:0:0:1]:64537	admin	REQUEST	[GET] /export
+20:51:57.349	[0:0:0:0:0:0:0:1]:64537	admin	200		6.33 ms
+20:52:14.758	[0:0:0:0:0:0:0:1]:64537	admin	REQUEST	[GET] /export
+20:52:14.762	[0:0:0:0:0:0:0:1]:64537	admin	200		4.64 ms
+20:52:18.481	[0:0:0:0:0:0:0:1]:64537	admin	REQUEST	[GET] /export
+20:52:18.485	[0:0:0:0:0:0:0:1]:64537	admin	200		4.12 ms
+20:52:50.709	[0:0:0:0:0:0:0:1]:64537	admin	REQUEST	[GET] /export
+20:52:50.713	[0:0:0:0:0:0:0:1]:64537	admin	200		4.48 ms
+20:53:32.174	[0:0:0:0:0:0:0:1]:64537	admin	REQUEST	[GET] /export
+20:53:32.184	[0:0:0:0:0:0:0:1]:64537	admin	200		9.45 ms
+20:54:35.715	[0:0:0:0:0:0:0:1]:64560	admin	REQUEST	[GET] /export
+20:54:35.726	[0:0:0:0:0:0:0:1]:64560	admin	200		11.12 ms
+20:54:47.275	[0:0:0:0:0:0:0:1]:64560	admin	REQUEST	[GET] /export
+20:54:47.281	[0:0:0:0:0:0:0:1]:64560	admin	200		6.92 ms
+20:55:49.415	[0:0:0:0:0:0:0:1]:64564	admin	REQUEST	[GET] /export
+20:55:49.424	[0:0:0:0:0:0:0:1]:64564	admin	200		9.42 ms
+20:56:51.762	[0:0:0:0:0:0:0:1]:64568	admin	REQUEST	[GET] /export
+20:56:51.770	[0:0:0:0:0:0:0:1]:64568	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 90/24: [FOJS0006] Invalid element: 'Q{http://www.w3.org/2005/xpath-functions}date'	7.84 ms
+20:57:05.376	[0:0:0:0:0:0:0:1]:64568	admin	REQUEST	[GET] /export
+20:57:05.388	[0:0:0:0:0:0:0:1]:64568	admin	200		13.68 ms
+20:59:02.411	[0:0:0:0:0:0:0:1]:64570	admin	REQUEST	[GET] /export
+20:59:02.418	[0:0:0:0:0:0:0:1]:64570	admin	200		6.73 ms
+20:59:46.157	[0:0:0:0:0:0:0:1]:64570	admin	REQUEST	[GET] /export
+20:59:46.168	[0:0:0:0:0:0:0:1]:64570	admin	200		11.53 ms
+21:01:05.329	[0:0:0:0:0:0:0:1]:64573	admin	REQUEST	[GET] /export
+21:01:05.338	[0:0:0:0:0:0:0:1]:64573	admin	200		8.55 ms
+21:01:14.892	[0:0:0:0:0:0:0:1]:64573	admin	REQUEST	[GET] /export
+21:01:14.902	[0:0:0:0:0:0:0:1]:64573	admin	200		9.94 ms
+21:02:06.976	[0:0:0:0:0:0:0:1]:64573	admin	REQUEST	[GET] /export
+21:02:06.981	[0:0:0:0:0:0:0:1]:64573	admin	200		5.2 ms
+21:02:44.096	[0:0:0:0:0:0:0:1]:64573	admin	REQUEST	[GET] /export
+21:02:44.104	[0:0:0:0:0:0:0:1]:64573	admin	200		7.73 ms
+21:26:09.484	[0:0:0:0:0:0:0:1]:49419	admin	REQUEST	[GET] /export
+21:26:09.494	[0:0:0:0:0:0:0:1]:49419	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/24: [FOJS0006] Element 'null' must have no text nodes.	9.72 ms
+21:26:25.989	[0:0:0:0:0:0:0:1]:49419	admin	REQUEST	[GET] /export
+21:26:25.995	[0:0:0:0:0:0:0:1]:49419	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/24: [FOJS0006] Element 'null' must have no text nodes.	6.42 ms
+21:26:35.540	[0:0:0:0:0:0:0:1]:49419	admin	REQUEST	[GET] /export
+21:26:35.546	[0:0:0:0:0:0:0:1]:49419	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/24: [FOJS0006] Element 'null' must have no text nodes.	6.53 ms
+21:27:40.321	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:27:40.337	[0:0:0:0:0:0:0:1]:49423	admin	200		16.2 ms
+21:28:26.873	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:28:26.888	[0:0:0:0:0:0:0:1]:49423	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/24: [FOJS0006] Element 'null' must have no text nodes.	15.78 ms
+21:28:55.477	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:28:55.487	[0:0:0:0:0:0:0:1]:49423	admin	200		10.61 ms
+21:29:18.900	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:29:18.908	[0:0:0:0:0:0:0:1]:49423	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/24: [FOJS0006] Element 'null' must have no text nodes.	8.37 ms
+21:29:33.035	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:29:33.048	[0:0:0:0:0:0:0:1]:49423	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/24: [FOJS0006] Element 'null' must have no text nodes.	13.48 ms
+21:30:17.160	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:30:17.169	[0:0:0:0:0:0:0:1]:49423	admin	200		8.27 ms
+21:31:11.547	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:31:11.555	[0:0:0:0:0:0:0:1]:49423	admin	200		8.56 ms
+21:31:30.500	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[POST] /add
+21:31:30.615	[0:0:0:0:0:0:0:1]:49423	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 11/11: [db:lock] Database 'agenda' is currently opened by another process.	115.2 ms
+21:31:39.847	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[POST] /add
+21:31:39.875	[0:0:0:0:0:0:0:1]:49423	admin	200		29.97 ms
+21:31:42.335	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /getSchedules
+21:31:42.356	[0:0:0:0:0:0:0:1]:49423	admin	200		20.63 ms
+21:31:46.242	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:31:46.247	[0:0:0:0:0:0:0:1]:49423	admin	200		5.16 ms
+21:32:23.818	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:32:23.830	[0:0:0:0:0:0:0:1]:49423	admin	200		11.95 ms
+21:33:00.659	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:33:00.665	[0:0:0:0:0:0:0:1]:49423	admin	200		5.84 ms
+21:33:19.047	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:33:19.053	[0:0:0:0:0:0:0:1]:49423	admin	200		6.12 ms
+21:33:27.727	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:33:27.734	[0:0:0:0:0:0:0:1]:49423	admin	200		7.62 ms
+21:33:49.350	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:33:49.358	[0:0:0:0:0:0:0:1]:49423	admin	200		8.37 ms
+21:33:57.617	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:33:57.629	[0:0:0:0:0:0:0:1]:49423	admin	200		12.0 ms
+21:34:10.026	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:34:10.035	[0:0:0:0:0:0:0:1]:49423	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 90/24: [FOJS0006] Element 'string' must have no child elements.	9.13 ms
+21:34:16.444	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:34:16.449	[0:0:0:0:0:0:0:1]:49423	admin	200		4.97 ms
+21:34:53.992	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:34:53.997	[0:0:0:0:0:0:0:1]:49423	admin	200		5.63 ms
+21:35:16.483	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:35:16.488	[0:0:0:0:0:0:0:1]:49423	admin	200		4.88 ms
+21:35:24.841	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:35:24.848	[0:0:0:0:0:0:0:1]:49423	admin	200		7.08 ms
+21:35:41.874	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:35:41.878	[0:0:0:0:0:0:0:1]:49423	admin	200		4.2 ms
+21:35:53.511	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:35:53.515	[0:0:0:0:0:0:0:1]:49423	admin	200		4.2 ms
+21:36:35.843	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:36:35.847	[0:0:0:0:0:0:0:1]:49423	admin	200		4.22 ms
+21:37:26.770	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:37:26.775	[0:0:0:0:0:0:0:1]:49423	admin	200		5.31 ms
+21:37:47.362	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:37:47.366	[0:0:0:0:0:0:0:1]:49423	admin	200		4.25 ms
+21:38:16.850	[0:0:0:0:0:0:0:1]:49423	admin	REQUEST	[GET] /export
+21:38:16.857	[0:0:0:0:0:0:0:1]:49423	admin	200		7.31 ms
+21:39:42.984	[0:0:0:0:0:0:0:1]:52675	admin	REQUEST	[GET] /export
+21:39:42.988	[0:0:0:0:0:0:0:1]:52675	admin	200		4.52 ms
+21:44:07.354	[0:0:0:0:0:0:0:1]:52701	admin	REQUEST	[GET] /export
+21:44:07.360	[0:0:0:0:0:0:0:1]:52701	admin	200		6.16 ms
+21:45:42.829	[0:0:0:0:0:0:0:1]:52707	admin	REQUEST	[GET] /export
+21:45:42.833	[0:0:0:0:0:0:0:1]:52707	admin	200		3.98 ms
+21:45:50.495	[0:0:0:0:0:0:0:1]:52707	admin	REQUEST	[GET] /export
+21:45:50.499	[0:0:0:0:0:0:0:1]:52707	admin	200		4.12 ms
+21:46:25.532	[0:0:0:0:0:0:0:1]:52707	admin	REQUEST	[GET] /export
+21:46:25.538	[0:0:0:0:0:0:0:1]:52707	admin	200		6.21 ms

@@ -1,0 +1,108 @@
+db = connect("mongodb+srv://HelloAtlas:helloatlas@cluster0.fwvzr.mongodb.net/christmasDB?retryWrites=true&w=majority")
+
+db.schedules.aggregate([
+    {
+        $project: {
+            status: 1,
+            numberOfElements: 1,
+            scheduleDate: {
+                $dateFromString: { dateString: "$scheduleDate"} 
+            },
+            location: 1,
+            contacts: 1, 
+            members: 1
+        }
+    }, 
+    { 
+        $sort: {scheduleDate: 1}
+    }, 
+    {   
+        $match: {status: 'Active'}
+    }, 
+    {   
+        $out: 'activeSchedules'
+    }
+])
+
+var members = db.activeSchedules.aggregate([
+    {
+        $project:{"members": 1}
+    },
+    {
+        $unwind: "$members"
+    },
+    {
+        $project:{
+            _id:0,
+            name:"$members.name",
+            birthdayDate:"$members.birthdayDate",
+            genre:"$members.genre",
+            schedule_id: "$_id"
+        }
+    }
+])
+
+members.forEach(
+    function(doc){
+        db.members.insertOne(doc);
+    }
+)
+
+db.activeSchedules.updateMany({},
+{ $unset: { members: ""} }
+)
+
+db.schedules.aggregate([
+    {
+        $project: {
+            status: 1,
+            numberOfElements: 1,
+            scheduleDate: {
+                $dateFromString: { dateString: "$scheduleDate"} 
+            },
+            location: 1,
+            contacts: 1, 
+            members: 1
+        }   
+    }, 
+    {  
+        $sort: {scheduleDate: 1}
+    }, 
+    {   
+        $match: {status: 'Canceled'}
+    }, 
+    {
+        $out: 'canceledSchedules'
+    }
+])
+
+var members = db.canceledSchedules.aggregate([
+    {
+        $project:{"members": 1}
+    },
+    {
+        $unwind: "$members"
+    },
+    {
+        $project:{
+            _id:0,
+            name:"$members.name",
+            birthdayDate:"$members.birthdayDate",
+            genre:"$members.genre",
+            schedule_id: "$_id"
+        }
+    }
+])
+
+members.forEach(
+    function(doc){
+        db.members.insertOne(doc);
+    }
+)
+
+db.canceledSchedules.updateMany({},
+{ $unset: { members: ""} }
+)
+
+db.schedules.drop()
+

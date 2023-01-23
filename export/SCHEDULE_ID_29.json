@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-10-07",
+  "location":{
+    "country":"Niger",
+    "city":"Abuja"
+  },
+  "contacts":{
+    "phoneNumber":"266788769",
+    "email":"ibadanzaria@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Ibadan",
+        "lastName":"Zaria"
+      },
+      "birthdayDate":"2000-12-02",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Crovi",
+        "lastName":"Zaria"
+      },
+      "birthdayDate":"1999-11-12",
+      "genre":"feminine"
+    }
+  ]
+}

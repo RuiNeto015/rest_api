@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-10-08",
+  "location":{
+    "country":"Canada",
+    "city":"Toronto"
+  },
+  "contacts":{
+    "phoneNumber":"628254826",
+    "email":"liampain@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Liam",
+        "lastName":"Pain"
+      },
+      "birthdayDate":"1990-12-03",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Julian",
+        "lastName":"Pain"
+      },
+      "birthdayDate":"2010-06-05",
+      "genre":"feminine"
+    }
+  ]
+}

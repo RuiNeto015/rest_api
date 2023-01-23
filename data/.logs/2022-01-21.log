@@ -1,0 +1,44 @@
+00:00:05.985	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+00:00:06.016	[0:0:0:0:0:0:0:1]:64036	admin	200		30.93 ms
+00:00:14.995	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+00:00:15.027	[0:0:0:0:0:0:0:1]:64036	admin	200		31.68 ms
+00:00:22.839	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+00:00:22.873	[0:0:0:0:0:0:0:1]:64036	admin	200		33.54 ms
+00:00:31.589	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+00:00:31.618	[0:0:0:0:0:0:0:1]:64036	admin	200		29.91 ms
+00:00:47.783	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[GET] /getSchedules
+00:00:47.807	[0:0:0:0:0:0:0:1]:64036	admin	200		23.4 ms
+00:01:15.370	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+00:01:15.383	[0:0:0:0:0:0:0:1]:64036	admin	200		14.52 ms
+00:01:28.694	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+00:01:28.723	[0:0:0:0:0:0:0:1]:64036	admin	200		29.44 ms
+00:01:39.167	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+00:01:39.190	[0:0:0:0:0:0:0:1]:64036	admin	200		23.51 ms
+00:01:48.293	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+00:01:48.324	[0:0:0:0:0:0:0:1]:64036	admin	200		31.14 ms
+00:01:56.641	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+00:01:56.671	[0:0:0:0:0:0:0:1]:64036	admin	200		29.4 ms
+00:02:01.546	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[GET] /export
+00:02:01.624	[0:0:0:0:0:0:0:1]:64036	admin	200		78.79 ms
+00:02:07.776	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[GET] /getSchedules
+00:02:07.783	[0:0:0:0:0:0:0:1]:64036	admin	200		6.67 ms
+00:02:19.913	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[GET] /getAvailableSlotsInTimeInterval?startDate=2021-09-18&finishDate=2021-12-26
+00:02:19.926	[0:0:0:0:0:0:0:1]:64036	admin	200		12.95 ms
+00:03:01.592	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[DELETE] /cancelSchedule?id=SCHEDULE_ID_15
+00:03:01.606	[0:0:0:0:0:0:0:1]:64036	admin	200		13.96 ms
+00:03:08.516	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[DELETE] /cancelSchedule?id=SCHEDULE_ID_22
+00:03:08.538	[0:0:0:0:0:0:0:1]:64036	admin	200		23.04 ms
+00:03:13.061	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[DELETE] /cancelSchedule?id=SCHEDULE_ID_34
+00:03:13.083	[0:0:0:0:0:0:0:1]:64036	admin	200		22.35 ms
+00:03:19.487	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[DELETE] /cancelSchedule?id=SCHEDULE_ID_44
+00:03:19.504	[0:0:0:0:0:0:0:1]:64036	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 83/11: [ERROR] id is not valid	16.42 ms
+00:03:26.194	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[DELETE] /cancelSchedule?id=SCHEDULE_ID_6
+00:03:26.201	[0:0:0:0:0:0:0:1]:64036	admin	200		7.98 ms
+00:03:32.884	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[GET] /export
+00:03:32.967	[0:0:0:0:0:0:0:1]:64036	admin	200		83.28 ms
+00:47:14.298	SERVER	admin	OK	Server was started (port: 1984).
+00:47:14.366	SERVER	admin	OK	HTTP Server was started (port: 8984).
+00:47:33.574	[0:0:0:0:0:0:0:1]:58127	admin	REQUEST	[GET] /getSchedules
+00:47:34.065	[0:0:0:0:0:0:0:1]:58127	admin	200		491.86 ms
+00:47:43.313	[0:0:0:0:0:0:0:1]:58127	admin	REQUEST	[GET] /getAvailableSlotsInTimeInterval?startDate=2021-09-18&finishDate=2021-12-26
+00:47:43.370	[0:0:0:0:0:0:0:1]:58127	admin	200		57.11 ms

@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-11-15",
+  "location":{
+    "country":"Niger",
+    "city":"Lagos"
+  },
+  "contacts":{
+    "phoneNumber":"266788769",
+    "email":"ainaebunoluwa@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Aina",
+        "lastName":"Ebunoluwa"
+      },
+      "birthdayDate":"1990-05-15",
+      "genre":"feminine"
+    },
+    {
+      "name":{
+        "firstName":"Akin",
+        "lastName":"Ebunoluwa"
+      },
+      "birthdayDate":"2017-05-25",
+      "genre":"masculine"
+    }
+  ]
+}

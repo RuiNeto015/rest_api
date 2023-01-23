@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<family xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http//estg.ipp.pt/familyTypes" 
+xsi:schemaLocation="http//estg.ipp.pt/familyTypes familyTypes.xsd">
+
+    <numberOfElements>2</numberOfElements>
+    <country>Iceland</country>
+    <city>Akranes</city>
+    <contacts>
+        <phoneNumber indicative="+999">239658975</phoneNumber>
+        <email>nathangarrity@gmail.com</email>
+    </contacts>
+    <members>
+        <member>
+            <name>
+                <firstName>Nathan</firstName>
+                <lastName>Garrity</lastName>
+            </name>
+            <birthdayDate format="yyyy-mm-dd">1960-09-14</birthdayDate>
+            <genre>masculine</genre>
+        </member>
+        <member>
+            <name>
+                <firstName>Joana</firstName>
+                <lastName>Garrity</lastName>
+            </name>
+            <birthdayDate format="yyyy-mm-dd">1965-12-14</birthdayDate>
+            <genre>feminine</genre>
+        </member>
+    </members>
+    <datePreferences>
+        <datePreference format="yyyy-mm-dd">2021-12-22</datePreference> 
+    </datePreferences>
+</family>

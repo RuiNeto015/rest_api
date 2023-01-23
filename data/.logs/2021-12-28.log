@@ -1,0 +1,14 @@
+14:21:20.185	SERVER	admin	OK	Server was started (port: 1984).
+14:21:20.320	SERVER	admin	OK	HTTP Server was started (port: 8984).
+14:21:41.300	[0:0:0:0:0:0:0:1]:58671	admin	REQUEST	[GET] /getSchedules
+14:21:42.089	[0:0:0:0:0:0:0:1]:58671	admin	200		790.85 ms
+14:21:46.924	[0:0:0:0:0:0:0:1]:58671	admin	REQUEST	[GET] /export
+14:21:46.978	[0:0:0:0:0:0:0:1]:58671	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 99/34: [XPDY0002] Q{http://www.w3.org/2005/xpath-functions}members: Context is undeclared. Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 81/10	56.17 ms
+14:22:00.765	[0:0:0:0:0:0:0:1]:58671	admin	REQUEST	[GET] /export
+14:22:00.823	[0:0:0:0:0:0:0:1]:58671	admin	200		57.78 ms
+14:23:42.068	[0:0:0:0:0:0:0:1]:63238	admin	REQUEST	[GET] /export
+14:23:42.118	[0:0:0:0:0:0:0:1]:63238	admin	200		50.07 ms
+14:24:39.540	[0:0:0:0:0:0:0:1]:63238	admin	REQUEST	[GET] /export
+14:24:39.598	[0:0:0:0:0:0:0:1]:63238	admin	200		57.79 ms
+14:25:40.926	[0:0:0:0:0:0:0:1]:63241	admin	REQUEST	[GET] /export
+14:25:40.977	[0:0:0:0:0:0:0:1]:63241	admin	200		51.27 ms

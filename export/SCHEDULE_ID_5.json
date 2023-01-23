@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-11-14",
+  "location":{
+    "country":"England",
+    "city":"Manchester"
+  },
+  "contacts":{
+    "phoneNumber":"247843675",
+    "email":"louisdonald@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Louis",
+        "lastName":"Donald"
+      },
+      "birthdayDate":"1983-04-28",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Chris",
+        "lastName":"Donald"
+      },
+      "birthdayDate":"1987-03-12",
+      "genre":"feminine"
+    }
+  ]
+}

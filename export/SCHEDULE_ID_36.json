@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-11-13",
+  "location":{
+    "country":"Greenland",
+    "city":"Nuuk"
+  },
+  "contacts":{
+    "phoneNumber":"098876751",
+    "email":"kevinjean@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Kevin",
+        "lastName":"Jean"
+      },
+      "birthdayDate":"1983-09-14",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Larissa",
+        "lastName":"Jean"
+      },
+      "birthdayDate":"1981-09-14",
+      "genre":"feminine"
+    }
+  ]
+}

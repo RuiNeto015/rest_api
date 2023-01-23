@@ -1,0 +1,10 @@
+09:58:18.870	SERVER	admin	OK	Server was started (port: 1984).
+09:58:18.996	SERVER	admin	OK	HTTP Server was started (port: 8984).
+09:58:24.155	[0:0:0:0:0:0:0:1]:50667	admin	REQUEST	[GET] /getAvailableSlotsInTimeInterval?startDate=2021-09-18&finishDate=2021-12-26
+09:58:24.895	[0:0:0:0:0:0:0:1]:50667	admin	200		741.91 ms
+09:59:03.623	[0:0:0:0:0:0:0:1]:50667	admin	REQUEST	[GET] /getSchedules
+09:59:03.664	[0:0:0:0:0:0:0:1]:50667	admin	200		41.35 ms
+09:59:13.259	[0:0:0:0:0:0:0:1]:50667	admin	REQUEST	[DELETE] /cancelSchedule?id=SCHEDULE_ID_1
+09:59:13.309	[0:0:0:0:0:0:0:1]:50667	admin	200		50.08 ms
+09:59:19.906	[0:0:0:0:0:0:0:1]:50667	admin	REQUEST	[GET] /getSchedules
+09:59:19.949	[0:0:0:0:0:0:0:1]:50667	admin	200		43.3 ms

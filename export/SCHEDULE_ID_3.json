@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-09-29",
+  "location":{
+    "country":"England",
+    "city":"Liverpool"
+  },
+  "contacts":{
+    "phoneNumber":"218124757",
+    "email":"johnnypyres@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Johnny",
+        "lastName":"Pyres"
+      },
+      "birthdayDate":"1970-03-25",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Amanda",
+        "lastName":"Pyres"
+      },
+      "birthdayDate":"1975-02-13",
+      "genre":"feminine"
+    }
+  ]
+}

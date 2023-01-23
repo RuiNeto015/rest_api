@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-11-21",
+  "location":{
+    "country":"India",
+    "city":"Calcuta"
+  },
+  "contacts":{
+    "phoneNumber":"279026578",
+    "email":"aaravdaru@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Aarav",
+        "lastName":"Daru"
+      },
+      "birthdayDate":"1960-03-15",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Ravi",
+        "lastName":"Daru"
+      },
+      "birthdayDate":"1959-02-20",
+      "genre":"masculine"
+    }
+  ]
+}

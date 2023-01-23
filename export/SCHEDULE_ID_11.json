@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-09-16",
+  "location":{
+    "country":"Russia",
+    "city":"Moscovo"
+  },
+  "contacts":{
+    "phoneNumber":"737282736",
+    "email":"ivanildoyure@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Ivanildo",
+        "lastName":"Yure"
+      },
+      "birthdayDate":"1993-12-25",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Nadie",
+        "lastName":"Yure"
+      },
+      "birthdayDate":"1990-12-26",
+      "genre":"feminine"
+    }
+  ]
+}

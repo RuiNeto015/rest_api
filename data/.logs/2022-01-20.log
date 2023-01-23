@@ -1,0 +1,136 @@
+15:44:56.178	SERVER	admin	OK	Server was started (port: 1984).
+15:44:56.270	SERVER	admin	OK	HTTP Server was started (port: 8984).
+15:45:38.990	[0:0:0:0:0:0:0:1]:49564	admin	REQUEST	[POST] /add
+15:45:39.726	[0:0:0:0:0:0:0:1]:49564	admin	200		736.45 ms
+15:45:44.475	[0:0:0:0:0:0:0:1]:49564	admin	REQUEST	[GET] /getSchedules
+15:45:44.515	[0:0:0:0:0:0:0:1]:49564	admin	200		40.3 ms
+15:47:27.930	[0:0:0:0:0:0:0:1]:54821	admin	REQUEST	[POST] /add
+15:47:27.990	[0:0:0:0:0:0:0:1]:54821	admin	200		60.24 ms
+15:47:31.623	[0:0:0:0:0:0:0:1]:54821	admin	REQUEST	[GET] /getSchedules
+15:47:31.651	[0:0:0:0:0:0:0:1]:54821	admin	200		28.23 ms
+15:49:32.089	[0:0:0:0:0:0:0:1]:49770	admin	REQUEST	[POST] /add
+15:49:32.141	[0:0:0:0:0:0:0:1]:49770	admin	200		53.58 ms
+15:49:35.177	[0:0:0:0:0:0:0:1]:49770	admin	REQUEST	[GET] /getSchedules
+15:49:35.203	[0:0:0:0:0:0:0:1]:49770	admin	200		25.32 ms
+15:50:21.837	[0:0:0:0:0:0:0:1]:49770	admin	REQUEST	[GET] /getSchedules
+15:50:21.848	[0:0:0:0:0:0:0:1]:49770	admin	200		11.6 ms
+15:54:17.657	[0:0:0:0:0:0:0:1]:56883	admin	REQUEST	[POST] /add
+15:54:17.699	[0:0:0:0:0:0:0:1]:56883	admin	200		41.93 ms
+15:54:20.690	[0:0:0:0:0:0:0:1]:56883	admin	REQUEST	[GET] /getSchedules
+15:54:20.705	[0:0:0:0:0:0:0:1]:56883	admin	200		15.57 ms
+15:54:41.217	[0:0:0:0:0:0:0:1]:56883	admin	REQUEST	[GET] /export
+15:54:41.245	[0:0:0:0:0:0:0:1]:56883	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 101/85: [FOJS0006] Duplicate key: contact.	28.05 ms
+15:55:26.063	[0:0:0:0:0:0:0:1]:56883	admin	REQUEST	[GET] /export
+15:55:26.083	[0:0:0:0:0:0:0:1]:56883	admin	200		20.14 ms
+15:57:30.853	[0:0:0:0:0:0:0:1]:60084	admin	REQUEST	[GET] /export
+15:57:30.870	[0:0:0:0:0:0:0:1]:60084	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 101/85: [FOJS0006] Invalid element: 'Q{http://www.w3.org/2005/xpath-functions}object'	18.04 ms
+15:58:28.049	[0:0:0:0:0:0:0:1]:60084	admin	REQUEST	[GET] /export
+15:58:28.064	[0:0:0:0:0:0:0:1]:60084	admin	200		15.64 ms
+15:59:26.171	[0:0:0:0:0:0:0:1]:60084	admin	REQUEST	[GET] /export
+15:59:26.188	[0:0:0:0:0:0:0:1]:60084	admin	200		16.53 ms
+16:00:42.209	[0:0:0:0:0:0:0:1]:59171	admin	REQUEST	[GET] /export
+16:00:42.229	[0:0:0:0:0:0:0:1]:59171	admin	200		21.11 ms
+16:03:13.785	[0:0:0:0:0:0:0:1]:62119	admin	REQUEST	[GET] /export
+16:03:13.802	[0:0:0:0:0:0:0:1]:62119	admin	200		17.68 ms
+16:03:39.325	[0:0:0:0:0:0:0:1]:62119	admin	REQUEST	[GET] /getAvailableSlotsInTimeInterval?startDate=2021-12-22&finishDate=2021-12-26
+16:03:39.337	[0:0:0:0:0:0:0:1]:62119	admin	200		12.01 ms
+16:03:57.757	[0:0:0:0:0:0:0:1]:62119	admin	REQUEST	[GET] /getAvailableSlotsInTimeInterval?startDate=2021-09-18&finishDate=2021-12-26
+16:03:57.767	[0:0:0:0:0:0:0:1]:62119	admin	200		10.02 ms
+16:04:07.265	[0:0:0:0:0:0:0:1]:62119	admin	REQUEST	[GET] /export
+16:04:07.279	[0:0:0:0:0:0:0:1]:62119	admin	200		13.98 ms
+16:04:11.135	[0:0:0:0:0:0:0:1]:62119	admin	REQUEST	[GET] /getSchedules
+16:04:11.142	[0:0:0:0:0:0:0:1]:62119	admin	200		7.35 ms
+16:04:19.436	[0:0:0:0:0:0:0:1]:62119	admin	REQUEST	[DELETE] /cancelSchedule?id=SCHEDULE_ID_1
+16:04:19.450	[0:0:0:0:0:0:0:1]:62119	admin	200		14.21 ms
+16:04:26.133	[0:0:0:0:0:0:0:1]:62119	admin	REQUEST	[GET] /getSchedules
+16:04:26.156	[0:0:0:0:0:0:0:1]:62119	admin	200		22.91 ms
+16:04:28.681	[0:0:0:0:0:0:0:1]:62119	admin	REQUEST	[GET] /export
+16:04:28.689	[0:0:0:0:0:0:0:1]:62119	admin	200		8.95 ms
+16:08:00.864	SERVER	admin	OK	Server was started (port: 1984).
+16:08:00.929	SERVER	admin	OK	HTTP Server was started (port: 8984).
+16:08:03.087	[0:0:0:0:0:0:0:1]:57501	admin	REQUEST	[GET] /export
+16:08:03.628	[0:0:0:0:0:0:0:1]:57501	admin	200		542.1 ms
+16:29:48.086	SERVER	admin	OK	Server was started (port: 1984).
+16:29:48.155	SERVER	admin	OK	HTTP Server was started (port: 8984).
+16:29:50.846	[0:0:0:0:0:0:0:1]:55959	admin	REQUEST	[POST] /add
+16:29:51.523	[0:0:0:0:0:0:0:1]:55959	admin	200		680.31 ms
+16:29:54.325	[0:0:0:0:0:0:0:1]:55959	admin	REQUEST	[GET] /export
+16:29:54.357	[0:0:0:0:0:0:0:1]:55959	admin	200		32.54 ms
+23:50:55.153	SERVER	admin	OK	Server was started (port: 1984).
+23:50:55.216	SERVER	admin	OK	HTTP Server was started (port: 8984).
+23:51:11.631	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:51:12.236	[0:0:0:0:0:0:0:1]:64015	admin	200		606.87 ms
+23:51:39.273	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:51:39.356	[0:0:0:0:0:0:0:1]:64015	admin	200		84.06 ms
+23:51:50.860	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:51:50.916	[0:0:0:0:0:0:0:1]:64015	admin	200		55.86 ms
+23:52:01.720	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:52:01.782	[0:0:0:0:0:0:0:1]:64015	admin	200		63.13 ms
+23:52:10.690	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:52:10.745	[0:0:0:0:0:0:0:1]:64015	admin	200		54.46 ms
+23:52:20.516	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:52:20.564	[0:0:0:0:0:0:0:1]:64015	admin	200		47.86 ms
+23:52:31.586	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:52:31.643	[0:0:0:0:0:0:0:1]:64015	admin	200		58.22 ms
+23:52:42.475	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:52:42.526	[0:0:0:0:0:0:0:1]:64015	admin	200		50.79 ms
+23:52:51.187	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:52:51.242	[0:0:0:0:0:0:0:1]:64015	admin	200		55.0 ms
+23:53:00.369	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:53:00.415	[0:0:0:0:0:0:0:1]:64015	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 12/24: [validate:error] Validation failed: 17:18: cvc-complex-type.2.4.b: The content of element 'member' is not complete. One of '{"http//estg.ipp.pt/familyTypes":genre}' is expected.	46.26 ms
+23:53:40.485	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:53:40.515	[0:0:0:0:0:0:0:1]:64015	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 12/24: [validate:error] Validation failed: 17:88: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http//estg.ipp.pt/familyTypes":family}'. One of '{"http//estg.ipp.pt/familyTypes":genre}' is expected.	30.36 ms
+23:54:20.933	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:54:20.960	[0:0:0:0:0:0:0:1]:64015	admin	200		28.07 ms
+23:54:34.645	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:54:34.689	[0:0:0:0:0:0:0:1]:64015	admin	200		43.7 ms
+23:54:43.974	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:54:44.011	[0:0:0:0:0:0:0:1]:64015	admin	200		36.97 ms
+23:54:55.021	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:54:55.060	[0:0:0:0:0:0:0:1]:64015	admin	200		39.73 ms
+23:55:03.821	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:55:03.856	[0:0:0:0:0:0:0:1]:64015	admin	200		35.74 ms
+23:55:12.272	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:55:12.310	[0:0:0:0:0:0:0:1]:64015	admin	200		38.16 ms
+23:55:21.212	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:55:21.244	[0:0:0:0:0:0:0:1]:64015	admin	200		32.26 ms
+23:55:32.546	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:55:32.589	[0:0:0:0:0:0:0:1]:64015	admin	200		43.19 ms
+23:55:41.336	[0:0:0:0:0:0:0:1]:64015	admin	REQUEST	[POST] /add
+23:55:41.376	[0:0:0:0:0:0:0:1]:64015	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 12/24: [validate:error] Validation failed: 17:18: cvc-complex-type.2.4.b: The content of element 'member' is not complete. One of '{"http//estg.ipp.pt/familyTypes":genre}' is expected.	41.51 ms
+23:56:53.244	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:56:53.261	[0:0:0:0:0:0:0:1]:64036	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 12/24: [validate:error] Validation failed: 25:38: cvc-enumeration-valid: Value 'mascuiline' is not facet-valid with respect to enumeration '[masculine, feminine]'. It must be a value from the enumeration.	17.96 ms
+23:57:02.658	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:57:02.674	[0:0:0:0:0:0:0:1]:64036	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 12/24: [validate:error] Validation failed: 25:38: cvc-enumeration-valid: Value 'mascuiline' is not facet-valid with respect to enumeration '[masculine, feminine]'. It must be a value from the enumeration.	16.09 ms
+23:57:07.929	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:57:07.956	[0:0:0:0:0:0:0:1]:64036	admin	200		26.91 ms
+23:57:21.074	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:57:21.108	[0:0:0:0:0:0:0:1]:64036	admin	200		34.19 ms
+23:57:31.610	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:57:31.649	[0:0:0:0:0:0:0:1]:64036	admin	200		38.98 ms
+23:57:40.445	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:57:40.477	[0:0:0:0:0:0:0:1]:64036	admin	200		32.75 ms
+23:57:50.048	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:57:50.085	[0:0:0:0:0:0:0:1]:64036	admin	200		37.59 ms
+23:57:58.845	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:57:58.886	[0:0:0:0:0:0:0:1]:64036	admin	200		41.78 ms
+23:58:09.224	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:58:09.259	[0:0:0:0:0:0:0:1]:64036	admin	200		36.6 ms
+23:58:18.023	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:58:18.054	[0:0:0:0:0:0:0:1]:64036	admin	200		31.84 ms
+23:58:35.935	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[GET] /getSchedules
+23:58:35.962	[0:0:0:0:0:0:0:1]:64036	admin	200		26.72 ms
+23:58:59.461	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:58:59.482	[0:0:0:0:0:0:0:1]:64036	admin	200		20.51 ms
+23:59:02.096	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[GET] /getSchedules
+23:59:02.116	[0:0:0:0:0:0:0:1]:64036	admin	200		19.47 ms
+23:59:19.193	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:59:19.220	[0:0:0:0:0:0:0:1]:64036	admin	200		26.71 ms
+23:59:30.634	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:59:30.658	[0:0:0:0:0:0:0:1]:64036	admin	200		24.19 ms
+23:59:38.402	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:59:38.436	[0:0:0:0:0:0:0:1]:64036	admin	200		37.27 ms
+23:59:46.258	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:59:46.287	[0:0:0:0:0:0:0:1]:64036	admin	200		29.42 ms
+23:59:55.811	[0:0:0:0:0:0:0:1]:64036	admin	REQUEST	[POST] /add
+23:59:55.849	[0:0:0:0:0:0:0:1]:64036	admin	200		37.97 ms

@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-12-13",
+  "location":{
+    "country":"Greenland",
+    "city":"Tasiilaq"
+  },
+  "contacts":{
+    "phoneNumber":"256745698",
+    "email":"johngroove@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"John",
+        "lastName":"Groove"
+      },
+      "birthdayDate":"1998-09-14",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Matthia",
+        "lastName":"Groove"
+      },
+      "birthdayDate":"2001-12-14",
+      "genre":"feminine"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<family xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http//estg.ipp.pt/familyTypes" 
+xsi:schemaLocation="http//estg.ipp.pt/familyTypes familyTypes.xsd">
+
+    <numberOfElements>2</numberOfElements>
+    <country>Iceland</country>
+    <city>Grindavik</city>
+    <contacts>
+        <phoneNumber indicative="+999">726389467</phoneNumber>
+        <email>lewishamilton@gmail.com</email>
+    </contacts>
+    <members>
+        <member>
+            <name>
+                <firstName>Lewis</firstName>
+                <lastName>Hamilton</lastName>
+            </name>
+            <birthdayDate format="yyyy-mm-dd">1988-01-14</birthdayDate>
+            <genre>masculine</genre>
+        </member>
+        <member>
+            <name>
+                <firstName>Robbie</firstName>
+                <lastName>Hamilton</lastName>
+            </name>
+            <birthdayDate format="yyyy-mm-dd">1990-07-14</birthdayDate>
+            <genre>feminine</genre>
+        </member>
+    </members>
+    <datePreferences>
+        <datePreference format="yyyy-mm-dd">2021-12-07</datePreference> 
+        <datePreference format="yyyy-mm-dd">2021-12-08</datePreference> 
+        <datePreference format="yyyy-mm-dd">2021-12-10</datePreference> 
+    </datePreferences>
+</family>

@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-10-04",
+  "location":{
+    "country":"Niger",
+    "city":"Enugu"
+  },
+  "contacts":{
+    "phoneNumber":"257546789",
+    "email":"damaturuonitcha@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Damaturu",
+        "lastName":"Onitcha"
+      },
+      "birthdayDate":"1965-12-04",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Crovi",
+        "lastName":"Onitcha"
+      },
+      "birthdayDate":"1965-08-29",
+      "genre":"feminine"
+    }
+  ]
+}

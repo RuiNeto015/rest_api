@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-12-23",
+  "location":{
+    "country":"Iran",
+    "city":"Ardabil"
+  },
+  "contacts":{
+    "phoneNumber":"112546778",
+    "email":"shimashadan@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Shima",
+        "lastName":"Shadan"
+      },
+      "birthdayDate":"1997-03-15",
+      "genre":"feminine"
+    },
+    {
+      "name":{
+        "firstName":"Shiva",
+        "lastName":"Shadan"
+      },
+      "birthdayDate":"1997-02-20",
+      "genre":"feminine"
+    }
+  ]
+}

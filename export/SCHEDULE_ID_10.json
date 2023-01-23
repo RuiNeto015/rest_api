@@ -1,0 +1,47 @@
+{
+  "status":"Active",
+  "numberOfElements":4,
+  "scheduleDate":"2021-10-03",
+  "location":{
+    "country":"Russia",
+    "city":"São Petersburgo"
+  },
+  "contacts":{
+    "phoneNumber":"345680435",
+    "email":"igorandrey@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Igor",
+        "lastName":"Andrey"
+      },
+      "birthdayDate":"1993-10-19",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Ivan",
+        "lastName":"Andrey"
+      },
+      "birthdayDate":"1995-03-15",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Rayssa",
+        "lastName":"Andrey"
+      },
+      "birthdayDate":"2004-03-09",
+      "genre":"feminine"
+    },
+    {
+      "name":{
+        "firstName":"Dimitri",
+        "lastName":"Andrey"
+      },
+      "birthdayDate":"2001-11-19",
+      "genre":"masculine"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-10-01",
+  "location":{
+    "country":"Brazil",
+    "city":"Brasilia"
+  },
+  "contacts":{
+    "phoneNumber":"738463745",
+    "email":"migueloliveira@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Miguel",
+        "lastName":"Oliveira"
+      },
+      "birthdayDate":"2012-09-05",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Arthurita",
+        "lastName":"Oliveira"
+      },
+      "birthdayDate":"1980-10-04",
+      "genre":"feminine"
+    }
+  ]
+}

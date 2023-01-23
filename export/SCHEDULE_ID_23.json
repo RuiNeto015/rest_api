@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-11-18",
+  "location":{
+    "country":"India",
+    "city":"Jaipur"
+  },
+  "contacts":{
+    "phoneNumber":"235678956",
+    "email":"niveditadaru@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Nivedita",
+        "lastName":"Daru"
+      },
+      "birthdayDate":"1962-03-15",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Niyati",
+        "lastName":"Daru"
+      },
+      "birthdayDate":"1970-02-20",
+      "genre":"masculine"
+    }
+  ]
+}

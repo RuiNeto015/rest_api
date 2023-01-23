@@ -1,0 +1,250 @@
+11:34:47.121	SERVER	admin	OK	Server was started (port: 1984).
+11:34:47.211	SERVER	admin	OK	HTTP Server was started (port: 8984).
+11:36:50.688	[0:0:0:0:0:0:0:1]:49795	admin	REQUEST	[GET] /export
+11:36:51.103	[0:0:0:0:0:0:0:1]:49795	admin	200		416.14 ms
+11:41:06.571	[0:0:0:0:0:0:0:1]:49940	admin	REQUEST	[GET] /export
+11:41:06.597	[0:0:0:0:0:0:0:1]:49940	admin	200		26.54 ms
+11:43:00.012	[0:0:0:0:0:0:0:1]:49978	admin	REQUEST	[GET] /export
+11:43:00.048	[0:0:0:0:0:0:0:1]:49978	admin	200		36.06 ms
+11:43:10.658	[0:0:0:0:0:0:0:1]:49978	admin	REQUEST	[GET] /export
+11:43:10.672	[0:0:0:0:0:0:0:1]:49978	admin	200		14.28 ms
+11:43:39.908	[0:0:0:0:0:0:0:1]:49978	admin	REQUEST	[GET] /export
+11:43:39.926	[0:0:0:0:0:0:0:1]:49978	admin	200		18.72 ms
+11:44:19.592	[0:0:0:0:0:0:0:1]:49978	admin	REQUEST	[GET] /export
+11:44:19.610	[0:0:0:0:0:0:0:1]:49978	admin	200		17.4 ms
+11:44:58.527	[0:0:0:0:0:0:0:1]:49978	admin	REQUEST	[GET] /export
+11:44:58.548	[0:0:0:0:0:0:0:1]:49978	admin	200		21.4 ms
+11:45:44.693	[0:0:0:0:0:0:0:1]:49978	admin	REQUEST	[GET] /export
+11:45:44.703	[0:0:0:0:0:0:0:1]:49978	admin	200		9.91 ms
+11:48:12.144	[0:0:0:0:0:0:0:1]:51574	admin	REQUEST	[GET] /getSchedules
+11:48:12.157	[0:0:0:0:0:0:0:1]:51574	admin	200		13.77 ms
+11:49:35.768	[0:0:0:0:0:0:0:1]:50992	admin	REQUEST	[GET] /export
+11:49:35.780	[0:0:0:0:0:0:0:1]:50992	admin	200		11.48 ms
+14:21:55.857	SERVER	admin	OK	Server was started (port: 1984).
+14:21:55.937	SERVER	admin	OK	HTTP Server was started (port: 8984).
+14:23:04.846	[0:0:0:0:0:0:0:1]:60102	admin	REQUEST	[GET] /getSchedules
+14:23:05.291	[0:0:0:0:0:0:0:1]:60102	admin	200		446.73 ms
+14:23:39.134	[0:0:0:0:0:0:0:1]:60102	admin	REQUEST	[POST] /add
+14:23:39.241	[0:0:0:0:0:0:0:1]:60102	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available	106.64 ms
+15:18:29.168	[0:0:0:0:0:0:0:1]:51311	admin	REQUEST	[GET] /export
+15:18:29.246	[0:0:0:0:0:0:0:1]:51311	admin	200		79.57 ms
+15:23:45.825	[0:0:0:0:0:0:0:1]:52794	admin	REQUEST	[GET] /export
+15:23:45.853	[0:0:0:0:0:0:0:1]:52794	admin	200		28.27 ms
+15:26:19.072	[0:0:0:0:0:0:0:1]:52799	admin	REQUEST	[GET] /export
+15:26:19.099	[0:0:0:0:0:0:0:1]:52799	admin	200		27.26 ms
+15:28:02.454	[0:0:0:0:0:0:0:1]:60267	admin	REQUEST	[GET] /export
+15:28:02.496	[0:0:0:0:0:0:0:1]:60267	admin	200		42.35 ms
+15:28:29.418	[0:0:0:0:0:0:0:1]:60267	admin	REQUEST	[GET] /export
+15:28:29.448	[0:0:0:0:0:0:0:1]:60267	admin	200		30.4 ms
+15:29:52.465	[0:0:0:0:0:0:0:1]:60281	admin	REQUEST	[GET] /export
+15:29:52.487	[0:0:0:0:0:0:0:1]:60281	admin	200		22.05 ms
+15:32:35.577	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /export
+15:32:35.596	[0:0:0:0:0:0:0:1]:64808	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 90/31: [file:is-dir] 'export' is a non-empty directory.	19.42 ms
+15:33:08.679	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /export
+15:33:08.717	[0:0:0:0:0:0:0:1]:64808	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 90/31: [file:is-dir] 'export' is a non-empty directory.	39.54 ms
+15:34:04.825	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /export
+15:34:04.854	[0:0:0:0:0:0:0:1]:64808	admin	200		29.91 ms
+15:34:43.859	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /getSchedules
+15:34:43.866	[0:0:0:0:0:0:0:1]:64808	admin	200		6.72 ms
+15:35:06.180	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /getSchedules
+15:35:06.185	[0:0:0:0:0:0:0:1]:64808	admin	200		5.55 ms
+15:35:27.554	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /getSchedules
+15:35:27.559	[0:0:0:0:0:0:0:1]:64808	admin	200		4.49 ms
+15:35:29.191	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /export
+15:35:29.198	[0:0:0:0:0:0:0:1]:64808	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 90/31: [file:not-found] 'export' does not exist.	7.14 ms
+15:35:57.192	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /export
+15:35:57.212	[0:0:0:0:0:0:0:1]:64808	admin	200		19.81 ms
+15:36:15.894	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /export
+15:36:15.919	[0:0:0:0:0:0:0:1]:64808	admin	200		25.43 ms
+15:36:32.542	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /export
+15:36:32.560	[0:0:0:0:0:0:0:1]:64808	admin	200		18.48 ms
+15:37:01.035	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[DELETE] /cancelSchedule?id=SCHEDULE_ID_1
+15:37:01.057	[0:0:0:0:0:0:0:1]:64808	admin	200		21.99 ms
+15:37:03.522	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /getSchedules
+15:37:03.538	[0:0:0:0:0:0:0:1]:64808	admin	200		16.25 ms
+15:37:08.272	[0:0:0:0:0:0:0:1]:64808	admin	REQUEST	[GET] /export
+15:37:08.292	[0:0:0:0:0:0:0:1]:64808	admin	200		20.08 ms
+15:40:21.225	[0:0:0:0:0:0:0:1]:64828	admin	REQUEST	[GET] /export
+15:40:21.249	[0:0:0:0:0:0:0:1]:64828	admin	200		24.78 ms
+15:40:29.358	[0:0:0:0:0:0:0:1]:64828	admin	REQUEST	[GET] /export
+15:40:29.381	[0:0:0:0:0:0:0:1]:64828	admin	200		22.64 ms
+15:43:01.699	[0:0:0:0:0:0:0:1]:64834	admin	REQUEST	[GET] /export
+15:43:01.711	[0:0:0:0:0:0:0:1]:64834	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 91/31: [file:not-found] '.\export' does not exist.	12.28 ms
+15:44:05.617	[0:0:0:0:0:0:0:1]:64837	admin	REQUEST	[GET] /export
+15:44:05.626	[0:0:0:0:0:0:0:1]:64837	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/31: [file:not-found] '.\export' does not exist.	8.86 ms
+15:44:50.329	[0:0:0:0:0:0:0:1]:64837	admin	REQUEST	[GET] /export
+15:44:50.337	[0:0:0:0:0:0:0:1]:64837	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/31: [file:not-found] '.\export' does not exist.	9.23 ms
+15:45:01.060	[0:0:0:0:0:0:0:1]:64837	admin	REQUEST	[GET] /export
+15:45:01.068	[0:0:0:0:0:0:0:1]:64837	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/31: [file:not-found] 'export' does not exist.	8.15 ms
+15:45:29.771	[0:0:0:0:0:0:0:1]:64837	admin	REQUEST	[GET] /export
+15:45:29.781	[0:0:0:0:0:0:0:1]:64837	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 82/31: [file:not-found] 'C:\Users\Simão\Desktop\ChristmasAPI\export' does not exist.	9.66 ms
+15:52:17.062	[0:0:0:0:0:0:0:1]:51069	admin	REQUEST	[GET] /export
+15:52:17.085	[0:0:0:0:0:0:0:1]:51069	admin	200		22.91 ms
+15:52:42.679	[0:0:0:0:0:0:0:1]:51069	admin	REQUEST	[DELETE] /cancelSchedule?id=SCHEDULE_ID_2
+15:52:42.689	[0:0:0:0:0:0:0:1]:51069	admin	200		9.77 ms
+15:52:44.810	[0:0:0:0:0:0:0:1]:51069	admin	REQUEST	[GET] /getSchedules
+15:52:44.825	[0:0:0:0:0:0:0:1]:51069	admin	200		15.58 ms
+15:52:52.542	[0:0:0:0:0:0:0:1]:51069	admin	REQUEST	[GET] /export
+15:52:52.557	[0:0:0:0:0:0:0:1]:51069	admin	200		15.07 ms
+16:18:39.212	[0:0:0:0:0:0:0:1]:63842	admin	REQUEST	[GET] /export
+16:18:39.232	[0:0:0:0:0:0:0:1]:63842	admin	200		20.42 ms
+16:18:55.499	[0:0:0:0:0:0:0:1]:63842	admin	REQUEST	[GET] /getSchedules
+16:18:55.505	[0:0:0:0:0:0:0:1]:63842	admin	200		5.97 ms
+16:19:03.152	[0:0:0:0:0:0:0:1]:63842	admin	REQUEST	[POST] /add
+16:19:03.184	[0:0:0:0:0:0:0:1]:63842	admin	200		32.05 ms
+16:19:05.000	[0:0:0:0:0:0:0:1]:63842	admin	REQUEST	[GET] /getSchedules
+16:19:05.024	[0:0:0:0:0:0:0:1]:63842	admin	200		24.22 ms
+16:19:10.650	[0:0:0:0:0:0:0:1]:63842	admin	REQUEST	[GET] /export
+16:19:10.663	[0:0:0:0:0:0:0:1]:63842	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 29/41: [FOJS0006] Element 'string' must have no child elements. Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 88/46	12.95 ms
+16:21:03.808	[0:0:0:0:0:0:0:1]:63856	admin	REQUEST	[GET] /export
+16:21:03.827	[0:0:0:0:0:0:0:1]:63856	admin	200		18.69 ms
+16:21:46.775	[0:0:0:0:0:0:0:1]:63856	admin	REQUEST	[GET] /export
+16:21:46.794	[0:0:0:0:0:0:0:1]:63856	admin	200		18.94 ms
+16:22:21.861	[0:0:0:0:0:0:0:1]:63856	admin	REQUEST	[GET] /export
+16:22:21.884	[0:0:0:0:0:0:0:1]:63856	admin	200		22.85 ms
+16:23:20.875	[0:0:0:0:0:0:0:1]:63856	admin	REQUEST	[GET] /export
+16:23:20.899	[0:0:0:0:0:0:0:1]:63856	admin	200		23.65 ms
+16:24:57.313	[0:0:0:0:0:0:0:1]:55561	admin	REQUEST	[POST] /add
+16:24:57.329	[0:0:0:0:0:0:0:1]:55561	admin	200		16.29 ms
+16:25:02.637	[0:0:0:0:0:0:0:1]:55561	admin	REQUEST	[GET] /export
+16:25:02.663	[0:0:0:0:0:0:0:1]:55561	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/12: [XPTY0004] Item expected, sequence found: ("Portugal", "Portugal"). Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/46	25.65 ms
+16:25:16.011	[0:0:0:0:0:0:0:1]:55561	admin	REQUEST	[GET] /getSchedules
+16:25:16.014	[0:0:0:0:0:0:0:1]:55561	admin	200		3.61 ms
+16:25:41.084	[0:0:0:0:0:0:0:1]:55561	admin	REQUEST	[GET] /export
+16:25:41.095	[0:0:0:0:0:0:0:1]:55561	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/12: [XPTY0004] Item expected, sequence found: ("Portugal", "Portugal"). Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/46	11.8 ms
+16:27:50.480	[0:0:0:0:0:0:0:1]:55566	admin	REQUEST	[GET] /export
+16:27:50.491	[0:0:0:0:0:0:0:1]:55566	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/28: [XPTY0004] Item expected, sequence found: (0, 0). Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/46	11.52 ms
+16:28:13.660	[0:0:0:0:0:0:0:1]:55566	admin	REQUEST	[GET] /getSchedules
+16:28:13.665	[0:0:0:0:0:0:0:1]:55566	admin	200		5.96 ms
+16:28:32.930	[0:0:0:0:0:0:0:1]:55566	admin	REQUEST	[GET] /getSchedules
+16:28:32.939	[0:0:0:0:0:0:0:1]:55566	admin	200		9.08 ms
+16:28:34.806	[0:0:0:0:0:0:0:1]:55566	admin	REQUEST	[GET] /export
+16:28:34.817	[0:0:0:0:0:0:0:1]:55566	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/28: [XPTY0004] Item expected, sequence found: (0, 0). Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/46	10.87 ms
+16:30:33.076	[0:0:0:0:0:0:0:1]:55576	admin	REQUEST	[GET] /export
+16:30:33.086	[0:0:0:0:0:0:0:1]:55576	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/28: [XPTY0004] Item expected, sequence found: (0, 0). Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/46	10.89 ms
+16:30:34.236	[0:0:0:0:0:0:0:1]:55576	admin	REQUEST	[GET] /export
+16:30:34.249	[0:0:0:0:0:0:0:1]:55576	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/28: [XPTY0004] Item expected, sequence found: (0, 0). Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/46	14.71 ms
+16:32:09.738	[0:0:0:0:0:0:0:1]:55580	admin	REQUEST	[GET] /export
+16:32:09.752	[0:0:0:0:0:0:0:1]:55580	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/28: [XPTY0004] Item expected, sequence found: (0, 0).	14.38 ms
+16:32:28.756	[0:0:0:0:0:0:0:1]:55580	admin	REQUEST	[GET] /export
+16:32:28.767	[0:0:0:0:0:0:0:1]:55580	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/28: [XPTY0004] Item expected, sequence found: (0, 0).	11.22 ms
+16:32:44.717	[0:0:0:0:0:0:0:1]:55580	admin	REQUEST	[GET] /export
+16:32:44.729	[0:0:0:0:0:0:0:1]:55580	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/12: [XPTY0004] Item expected, sequence found: ("Santo Tirso", "Porto"). Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/46	11.94 ms
+16:33:06.504	[0:0:0:0:0:0:0:1]:55580	admin	REQUEST	[GET] /export
+16:33:06.523	[0:0:0:0:0:0:0:1]:55580	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 26/41: [FOJS0006] Element 'string' must have no child elements.	18.28 ms
+16:33:30.337	[0:0:0:0:0:0:0:1]:55580	admin	REQUEST	[GET] /export
+16:33:30.352	[0:0:0:0:0:0:0:1]:55580	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 30/39: [XPTY0019] text(): node expected, xs:untypedAtomic found: "Santo Tirso". Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/46	15.09 ms
+16:33:57.995	[0:0:0:0:0:0:0:1]:55580	admin	REQUEST	[GET] /export
+16:33:58.015	[0:0:0:0:0:0:0:1]:55580	admin	200		19.56 ms
+16:35:36.527	[0:0:0:0:0:0:0:1]:56921	admin	REQUEST	[GET] /getSchedules
+16:35:36.532	[0:0:0:0:0:0:0:1]:56921	admin	200		4.67 ms
+16:36:34.425	[0:0:0:0:0:0:0:1]:56921	admin	REQUEST	[GET] /export
+16:36:34.446	[0:0:0:0:0:0:0:1]:56921	admin	200		21.26 ms
+16:42:40.681	[0:0:0:0:0:0:0:1]:56934	admin	REQUEST	[GET] /export
+16:42:40.707	[0:0:0:0:0:0:0:1]:56934	admin	200		26.28 ms
+16:44:05.652	[0:0:0:0:0:0:0:1]:55394	admin	REQUEST	[POST] /add
+16:44:05.670	[0:0:0:0:0:0:0:1]:55394	admin	200		18.24 ms
+16:44:12.766	[0:0:0:0:0:0:0:1]:55394	admin	REQUEST	[GET] /export
+16:44:12.794	[0:0:0:0:0:0:0:1]:55394	admin	200		27.35 ms
+16:45:02.150	[0:0:0:0:0:0:0:1]:55394	admin	REQUEST	[POST] /add
+16:45:02.163	[0:0:0:0:0:0:0:1]:55394	admin	200		12.99 ms
+16:45:05.873	[0:0:0:0:0:0:0:1]:55394	admin	REQUEST	[GET] /export
+16:45:05.900	[0:0:0:0:0:0:0:1]:55394	admin	200		27.79 ms
+16:46:23.449	[0:0:0:0:0:0:0:1]:56833	admin	REQUEST	[GET] /export
+16:46:23.474	[0:0:0:0:0:0:0:1]:56833	admin	200		24.2 ms
+16:47:07.286	[0:0:0:0:0:0:0:1]:56833	admin	REQUEST	[GET] /export
+16:47:07.294	[0:0:0:0:0:0:0:1]:56833	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 26/12: [XPTY0004] Item expected, sequence found: ("Porto", "Rio Tinto").	8.03 ms
+16:48:20.145	[0:0:0:0:0:0:0:1]:60621	admin	REQUEST	[GET] /export
+16:48:20.156	[0:0:0:0:0:0:0:1]:60621	admin	200		12.21 ms
+16:52:57.256	[0:0:0:0:0:0:0:1]:64002	admin	REQUEST	[GET] /export
+16:52:57.274	[0:0:0:0:0:0:0:1]:64002	admin	200		18.14 ms
+16:56:16.182	[0:0:0:0:0:0:0:1]:64010	admin	REQUEST	[GET] /export
+16:56:16.197	[0:0:0:0:0:0:0:1]:64010	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 27/90: [XPTY0004] Item expected, sequence found: ("SCHEDULE_ID_1", "SCHEDULE_ID_2").	16.52 ms
+16:56:44.950	[0:0:0:0:0:0:0:1]:64010	admin	REQUEST	[GET] /export
+16:56:44.961	[0:0:0:0:0:0:0:1]:64010	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 27/90: [XPTY0004] Item expected, sequence found: ("SCHEDULE_ID_1", "SCHEDULE_ID_2").	12.8 ms
+16:56:59.031	[0:0:0:0:0:0:0:1]:64010	admin	REQUEST	[GET] /export
+16:56:59.040	[0:0:0:0:0:0:0:1]:64010	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 26/90: [XPTY0004] Item expected, sequence found: ("SCHEDULE_ID_1", "SCHEDULE_ID_2").	8.21 ms
+16:57:19.225	[0:0:0:0:0:0:0:1]:64010	admin	REQUEST	[GET] /export
+16:57:19.234	[0:0:0:0:0:0:0:1]:64010	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 27/90: [XPTY0004] Item expected, sequence found: ("SCHEDULE_ID_1", "SCHEDULE_ID_2").	9.07 ms
+16:57:20.192	[0:0:0:0:0:0:0:1]:64010	admin	REQUEST	[GET] /export
+16:57:20.200	[0:0:0:0:0:0:0:1]:64010	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 27/90: [XPTY0004] Item expected, sequence found: ("SCHEDULE_ID_1", "SCHEDULE_ID_2").	8.74 ms
+17:04:36.162	[0:0:0:0:0:0:0:1]:64019	admin	REQUEST	[GET] /export
+17:04:36.171	[0:0:0:0:0:0:0:1]:64019	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 27/17: [XPTY0019] descendant::node(): node expected, xs:untypedAtomic found: "Porto". Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/46	9.35 ms
+17:05:41.687	[0:0:0:0:0:0:0:1]:64023	admin	REQUEST	[GET] /export
+17:05:41.698	[0:0:0:0:0:0:0:1]:64023	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 27/17: [XPTY0019] descendant::node(): node expected, xs:untypedAtomic found: "Porto". Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/46	10.68 ms
+17:07:43.105	[0:0:0:0:0:0:0:1]:64027	admin	REQUEST	[GET] /export
+17:07:43.119	[0:0:0:0:0:0:0:1]:64027	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/17: [XPTY0019] descendant::node(): node expected, xs:untypedAtomic found: "Porto".	13.47 ms
+17:08:47.145	[0:0:0:0:0:0:0:1]:64029	admin	REQUEST	[GET] /export
+17:08:47.158	[0:0:0:0:0:0:0:1]:64029	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/17: [XPTY0019] descendant::node(): node expected, xs:untypedAtomic found: "Porto".	13.1 ms
+17:09:16.271	[0:0:0:0:0:0:0:1]:64029	admin	REQUEST	[GET] /export
+17:09:16.280	[0:0:0:0:0:0:0:1]:64029	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 24/3: [XPTY0019] text(): node expected, xs:untypedAtomic found: "Porto".	9.11 ms
+17:11:15.698	[0:0:0:0:0:0:0:1]:64038	admin	REQUEST	[GET] /export
+17:11:15.711	[0:0:0:0:0:0:0:1]:64038	admin	200		12.85 ms
+17:12:23.259	[0:0:0:0:0:0:0:1]:64044	admin	REQUEST	[GET] /export
+17:12:23.272	[0:0:0:0:0:0:0:1]:64044	admin	200		13.74 ms
+17:13:03.004	[0:0:0:0:0:0:0:1]:64044	admin	REQUEST	[GET] /export
+17:13:03.019	[0:0:0:0:0:0:0:1]:64044	admin	200		15.12 ms
+17:13:31.832	[0:0:0:0:0:0:0:1]:64044	admin	REQUEST	[GET] /export
+17:13:31.848	[0:0:0:0:0:0:0:1]:64044	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 29/90: [XPTY0004] Item expected, sequence found: ("SCHEDULE_ID_1", "SCHEDULE_ID_2").	16.04 ms
+17:17:36.093	[0:0:0:0:0:0:0:1]:64054	admin	REQUEST	[GET] /export
+17:17:36.105	[0:0:0:0:0:0:0:1]:64054	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 30/90: [XPTY0004] Item expected, sequence found: ("SCHEDULE_ID_1", "SCHEDULE_ID_2"). Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 89/46	12.69 ms
+17:19:07.622	[0:0:0:0:0:0:0:1]:64057	admin	REQUEST	[GET] /export
+17:19:07.635	[0:0:0:0:0:0:0:1]:64057	admin	200		13.62 ms
+17:19:47.547	[0:0:0:0:0:0:0:1]:64057	admin	REQUEST	[GET] /export
+17:19:47.559	[0:0:0:0:0:0:0:1]:64057	admin	200		12.45 ms
+17:20:31.295	[0:0:0:0:0:0:0:1]:64057	admin	REQUEST	[GET] /export
+17:20:31.315	[0:0:0:0:0:0:0:1]:64057	admin	200		19.7 ms
+17:20:50.242	[0:0:0:0:0:0:0:1]:64057	admin	REQUEST	[GET] /export
+17:20:50.257	[0:0:0:0:0:0:0:1]:64057	admin	200		15.28 ms
+17:21:42.815	[0:0:0:0:0:0:0:1]:64057	admin	REQUEST	[GET] /export
+17:21:42.832	[0:0:0:0:0:0:0:1]:64057	admin	200		17.32 ms
+17:22:05.131	[0:0:0:0:0:0:0:1]:64057	admin	REQUEST	[GET] /export
+17:22:05.150	[0:0:0:0:0:0:0:1]:64057	admin	200		18.79 ms
+17:22:22.173	[0:0:0:0:0:0:0:1]:64057	admin	REQUEST	[GET] /export
+17:22:22.187	[0:0:0:0:0:0:0:1]:64057	admin	200		14.52 ms
+17:23:49.464	[0:0:0:0:0:0:0:1]:56377	admin	REQUEST	[GET] /export
+17:23:49.480	[0:0:0:0:0:0:0:1]:56377	admin	200		15.06 ms
+17:26:18.990	[0:0:0:0:0:0:0:1]:56384	admin	REQUEST	[GET] /getSchedules
+17:26:19.000	[0:0:0:0:0:0:0:1]:56384	admin	200		10.41 ms
+17:26:21.368	[0:0:0:0:0:0:0:1]:56384	admin	REQUEST	[GET] /export
+17:26:21.394	[0:0:0:0:0:0:0:1]:56384	admin	200		25.45 ms
+17:33:15.721	[0:0:0:0:0:0:0:1]:65468	admin	REQUEST	[GET] /export
+17:33:15.741	[0:0:0:0:0:0:0:1]:65468	admin	200		20.29 ms
+17:36:38.852	[0:0:0:0:0:0:0:1]:56055	admin	REQUEST	[GET] /export
+17:36:38.872	[0:0:0:0:0:0:0:1]:56055	admin	200		19.84 ms
+17:36:56.226	[0:0:0:0:0:0:0:1]:56055	admin	REQUEST	[GET] /export
+17:36:56.244	[0:0:0:0:0:0:0:1]:56055	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 110/47: [XPDY0002] jsonparser:getID: Context is undeclared. Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 81/10	18.09 ms
+17:37:22.965	[0:0:0:0:0:0:0:1]:56055	admin	REQUEST	[GET] /export
+17:37:22.977	[0:0:0:0:0:0:0:1]:56055	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 108/3: [XPDY0002] jsonparser:getID: Context is undeclared. Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 81/10	12.08 ms
+17:37:51.819	[0:0:0:0:0:0:0:1]:56055	admin	REQUEST	[GET] /export
+17:37:51.841	[0:0:0:0:0:0:0:1]:56055	admin	200		22.47 ms
+17:38:19.161	[0:0:0:0:0:0:0:1]:56055	admin	REQUEST	[GET] /export
+17:38:19.181	[0:0:0:0:0:0:0:1]:56055	admin	200		19.55 ms
+17:38:51.002	[0:0:0:0:0:0:0:1]:56055	admin	REQUEST	[POST] /add
+17:38:51.012	[0:0:0:0:0:0:0:1]:56055	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/validateXML.xq, 23/11: [ERROR] Non of DatePreferences are available	10.16 ms
+17:39:03.400	[0:0:0:0:0:0:0:1]:56055	admin	REQUEST	[POST] /add
+17:39:03.413	[0:0:0:0:0:0:0:1]:56055	admin	200		13.64 ms
+17:39:06.935	[0:0:0:0:0:0:0:1]:56055	admin	REQUEST	[GET] /export
+17:39:06.957	[0:0:0:0:0:0:0:1]:56055	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 47/97: [XPTY0004] Item expected, sequence found: (2, 3). Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 88/46	23.02 ms
+17:40:34.259	[0:0:0:0:0:0:0:1]:50096	admin	REQUEST	[GET] /export
+17:40:34.277	[0:0:0:0:0:0:0:1]:50096	admin	200		17.36 ms
+17:42:46.090	[0:0:0:0:0:0:0:1]:60278	admin	REQUEST	[GET] /export
+17:42:46.108	[0:0:0:0:0:0:0:1]:60278	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 26/97: [XPTY0004] Item expected, sequence found: (2, 3). Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 88/46	18.32 ms
+17:42:53.121	[0:0:0:0:0:0:0:1]:60278	admin	REQUEST	[GET] /getSchedules
+17:42:53.126	[0:0:0:0:0:0:0:1]:60278	admin	200		4.83 ms
+17:43:50.361	[0:0:0:0:0:0:0:1]:60278	admin	REQUEST	[GET] /export
+17:43:50.370	[0:0:0:0:0:0:0:1]:60278	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 26/97: [XPTY0004] Item expected, sequence found: (2, 3).	8.52 ms
+17:44:55.118	[0:0:0:0:0:0:0:1]:60281	admin	REQUEST	[GET] /export
+17:44:55.131	[0:0:0:0:0:0:0:1]:60281	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/97: [XPTY0004] Item expected, sequence found: (2, 3). Stack Trace: - C:/Users/Simão/Desktop/ChristmasAPI/restXQ/christmasAPI.xqm, 88/46	13.07 ms
+17:47:22.520	[0:0:0:0:0:0:0:1]:60286	admin	REQUEST	[GET] /export
+17:47:22.533	[0:0:0:0:0:0:0:1]:60286	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 24/97: [XPTY0004] Item expected, sequence found: (2, 3).	13.28 ms
+17:48:51.441	[0:0:0:0:0:0:0:1]:60289	admin	REQUEST	[GET] /export
+17:48:51.458	[0:0:0:0:0:0:0:1]:60289	admin	200		17.58 ms
+17:53:12.812	[0:0:0:0:0:0:0:1]:60299	admin	REQUEST	[GET] /export
+17:53:12.825	[0:0:0:0:0:0:0:1]:60299	admin	500	Stopped at C:/Users/Simão/Desktop/ChristmasAPI/restXQ/jsonparser.xq, 25/97: [XPTY0004] Item expected, sequence found: ("Rio Tinto", "Rio Tinto").	13.76 ms
+17:54:57.019	[0:0:0:0:0:0:0:1]:60301	admin	REQUEST	[GET] /export
+17:54:57.035	[0:0:0:0:0:0:0:1]:60301	admin	200		15.55 ms
+18:07:34.380	[0:0:0:0:0:0:0:1]:59490	admin	REQUEST	[DELETE] /cancelSchedule?id=SCHEDULE_ID_2
+18:07:34.384	[0:0:0:0:0:0:0:1]:59490	admin	200		4.61 ms
+18:07:37.521	[0:0:0:0:0:0:0:1]:59490	admin	REQUEST	[GET] /export
+18:07:37.558	[0:0:0:0:0:0:0:1]:59490	admin	200		36.96 ms

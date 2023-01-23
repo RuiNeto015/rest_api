@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-12-07",
+  "location":{
+    "country":"Iceland",
+    "city":"Grindavik"
+  },
+  "contacts":{
+    "phoneNumber":"726389467",
+    "email":"lewishamilton@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Lewis",
+        "lastName":"Hamilton"
+      },
+      "birthdayDate":"1988-01-14",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Robbie",
+        "lastName":"Hamilton"
+      },
+      "birthdayDate":"1990-07-14",
+      "genre":"feminine"
+    }
+  ]
+}

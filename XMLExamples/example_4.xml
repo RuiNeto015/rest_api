@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<family xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http//estg.ipp.pt/familyTypes" 
+xsi:schemaLocation="http//estg.ipp.pt/familyTypes familyTypes.xsd">
+
+    <numberOfElements>2</numberOfElements>
+    <country>Greenland</country>
+    <city>Tasiilaq</city>
+    <contacts>
+        <phoneNumber indicative="+521">256745698</phoneNumber>
+        <email>johngroove@gmail.com</email>
+    </contacts>
+    <members>
+        <member>
+            <name>
+                <firstName>John</firstName>
+                <lastName>Groove</lastName>
+            </name>
+            <birthdayDate format="yyyy-mm-dd">1998-09-14</birthdayDate>
+            <genre>masculine</genre>
+        </member>
+        <member>
+            <name>
+                <firstName>Matthia</firstName>
+                <lastName>Groove</lastName>
+            </name>
+            <birthdayDate format="yyyy-mm-dd">2001-12-14</birthdayDate>
+            <genre>feminine</genre>
+        </member>
+    </members>
+    <datePreferences>
+        <datePreference format="yyyy-mm-dd">2021-12-13</datePreference>
+        <datePreference format="yyyy-mm-dd">2021-12-15</datePreference>   
+    </datePreferences>
+</family>

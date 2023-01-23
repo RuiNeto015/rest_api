@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http//estg.ipp.pt/familyTypes" targetNamespace="http//estg.ipp.pt/familyTypes" elementFormDefault="qualified">
+
+    <xs:element name="family" type="familyType" />
+
+    <xs:complexType name="familyType">
+        <xs:sequence>
+            <xs:element name="numberOfElements" type="numberOfElementsType" />
+            <xs:element name="country" type="xs:string" />
+            <xs:element name="city" type="xs:string" />
+            <xs:element name="contacts" type ="contactsType"></xs:element>
+            <xs:element name="members" type="membersType" />
+            <xs:element name="datePreferences" type="datePreferencesType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="numberOfElementsType">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="2" />
+            <xs:maxInclusive value="7" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="datePreferencesType">
+        <xs:sequence>
+            <xs:element name="datePreference" type="dateType" minOccurs="1" maxOccurs="5" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="membersType">
+        <xs:sequence>
+            <xs:element name="member" type="memberType" minOccurs="2" maxOccurs="7" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="memberType">
+        <xs:sequence>
+            <xs:element name="name" type="nameType" />
+            <xs:element name="birthdayDate" type="dateType" />
+            <xs:element name="genre" type="genreType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="contactsType">
+        <xs:sequence>
+            <xs:element name="phoneNumber" type="phoneNumberType" />
+            <xs:element name="email" type="emailType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="indicativeType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[+]+[0-9-]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="phoneNumberType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="indicative" type="indicativeType" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:simpleType name="emailType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[^@]+@[^\.]+\..+" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="genreType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="masculine" />
+            <xs:enumeration value="feminine" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="nameType">
+        <xs:sequence>
+            <xs:element name="firstName" type="xs:string" />
+            <xs:element name="lastName" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="dateType">
+        <xs:simpleContent>
+            <xs:extension base="xs:date">
+                <xs:attribute name="format" type="xs:string" fixed="yyyy-mm-dd" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+</xs:schema>

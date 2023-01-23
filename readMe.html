@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+
+<body>
+<div style="background-color: #000080">
+<br>
+<center><p>
+    <font size="12" face="Verdana" color="white">
+        Christmas REST API
+    </font>
+    </p>
+    <p>
+    <font size="3" face="Verdana" color="white">
+        REST API to help Santa Claus managing his visits to the factory.
+    </font>
+</p></center>
+<br>
+</div>
+
+<div style="background-color: #C0C0C0">
+<p>
+    <font size="3" face="Verdana" color="black">
+        <br>
+        <p><strong>&nbsp;&nbsp;<i>Run the local server</i></strong></p>
+        <p>&nbsp;&nbsp;<u>To start the local server</u> run the following script on the project folder dir.</p>
+        <p>&nbsp;&nbsp;basexhttp.bat</p>
+        <br>
+    </font>
+</p>
+
+<p>
+    <font size="3" face="Verdana" color="black">
+        <p><strong>&nbsp;&nbsp;<i>HTTP Requests</i></strong></p>
+    </font>
+</p>
+
+<div>
+    <table cellspacing="3" bgcolor="#000000" style='font-family:"Verdana"' size = "3">
+        <tr bgcolor="#A9A9A9">
+            <th>Method</th>
+            <th>Endpoint</th>
+            <th>Description</th>
+            <th>Query Params</th>
+            <th>Headers</th>
+        </tr>
+        <tr bgcolor="#ffffff">
+            <td>GET</td>
+            <td><a href="http://localhost:8984/getSchedules">http://localhost:8984/getSchedules</a></td>
+            <td>Returns all the schedules.</td>
+            <td>N.A.</td>
+            <td>Default</td>
+        </tr>
+        <tr bgcolor="#ffffff">
+            <td>GET</td>
+            <td><a href="http://localhost:8984/export">http://localhost:8984/export</a></td>
+            <td>Exports all the schedules to ./export as .json files.</td>
+            <td>N.A.</td>
+            <td>Default</td>
+        </tr>
+        <tr bgcolor="#ffffff">
+            <td>GET</td>
+            <td><a href="http://localhost:8984/getAvailableSlotsInTimeInterval">http://localhost:8984/getAvailableSlotsInTimeInterval</a></td>
+            <td>Returns all the free slots between a time interval.</td>
+            <td>startDate=YYYY-MM-dd and finishDate=YYYY-MM-dd</td>
+            <td>Default</td>
+        </tr>
+        <tr bgcolor="#ffffff">
+            <td>POST</td>
+            <td><a href="http://localhost:8984/add">http://localhost:8984/add</a></td>
+            <td>Adds an Schedule if valid and possible attending to the preference dates.</td>
+            <td>N.A.</td>
+            <td>Content-Type = application/xml</td>
+        </tr>
+        <tr bgcolor="#ffffff">
+            <td>DEL</td>
+            <td><a href="http://localhost:8984/cancelSchedule">http://localhost:8984/cancelSchedule</a></td>
+            <td>Cancels a schedule.</td>
+            <td>id=SCHEDULE_ID_#</td>
+            <td>Default</td>
+        </tr>
+    </table></center>
+</div>
+
+<p>
+    <font size="3" face="Verdana" color="black">
+        <br>
+        <p><strong>&nbsp;&nbsp;<i>Importing to mongo</i></strong></p>
+        <p>&nbsp;&nbsp;<u>Before excuting the following process</u> be aware that all the .json files inside the ./export folder 
+            will be imported to mongo, wich  implies the method <br><br>&nbsp;&nbsp;&quot;<a href="http://localhost:8984/export">http://localhost:8984/export</a>&quot;
+            being called firstly.</p>
+        <br>
+    </font>
+</p>
+
+<p>
+    <font size="3" face="Verdana" color="black">
+        <p><strong>&nbsp;&nbsp;<i>Locally</i></strong></p>
+        <p>&nbsp;&nbsp;<u>To import to Mongo</u> run the following script on the project folder dir.</p>
+        <p>&nbsp;&nbsp;updateToMongo.bat</p>
+        <br>
+    </font>
+</p>
+
+<p>
+    <font size="3" face="Verdana" color="black">
+        <p><strong>&nbsp;&nbsp;<i>Atlas</i></strong></p>
+        <p>&nbsp;&nbsp;<u>To import to Atlas</u> run the following script on the project folder dir.</p>
+        <p>&nbsp;&nbsp;updateToAtlas.bat</p>
+        <p>&nbsp;&nbsp;<i>Note: The previous script is only runnable if your IP address is registered on the Atlas Network Acess section of the project.</i></p>
+        <br>
+    </font>
+</p>
+
+<p>
+    <font size="3" face="Verdana" color="black">
+        <p><strong>&nbsp;&nbsp;<i>Mongo Charts</i></strong></p>
+        <p>&nbsp;&nbsp;To acess the ChristmasAPI data charts click <a href="https://charts.mongodb.com/charts-project-0-entuy/public/dashboards/61d0f46b-2c98-4d5a-8908-1d126b4d8c05">here</a>.</p>
+        <br>
+    </font>
+</p>
+
+<p>
+    <font size="3" face="Verdana" color="black">
+        <p><strong>&nbsp;&nbsp;<i>Development Team</i></strong></p>
+        <p>&nbsp;&nbsp;Simão Santos <a href="mailto:8200322@estg.ipp.pt">8200322@estg.ipp.pt</a></p>
+        <p>&nbsp;&nbsp;Rui Neto <a href="mailto:8200321@estg.ipp.pt">8200321@estg.ipp.pt</a></p>
+        <br>
+    </font>
+</p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<family xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http//estg.ipp.pt/familyTypes" 
+xsi:schemaLocation="http//estg.ipp.pt/familyTypes familyTypes.xsd">
+
+    <numberOfElements>2</numberOfElements>
+    <country>Madagascar</country>
+    <city>Mahajanga</city>
+    <contacts>
+        <phoneNumber indicative="+339">199876900</phoneNumber>
+        <email>zaynetemalik@gmail.com</email>
+    </contacts>
+    <members>
+        <member>
+            <name>
+                <firstName>Zaynete</firstName>
+                <lastName>Malik</lastName>
+            </name>
+            <birthdayDate format="yyyy-mm-dd">1995-02-02</birthdayDate>
+            <genre>masculine</genre>
+        </member>
+        <member>
+            <name>
+                <firstName>Martin</firstName>
+                <lastName>Garrix</lastName>
+            </name>
+            <birthdayDate format="yyyy-mm-dd">1993-11-05</birthdayDate>
+            <genre>masculine</genre>
+        </member>
+    </members>
+    <datePreferences>
+        <datePreference format="yyyy-mm-dd">2021-10-04</datePreference>  
+    </datePreferences>
+</family>

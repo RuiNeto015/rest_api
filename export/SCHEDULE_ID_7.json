@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-12-16",
+  "location":{
+    "country":"France",
+    "city":"Marselha"
+  },
+  "contacts":{
+    "phoneNumber":"984462787",
+    "email":"kantesilva@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Knate",
+        "lastName":"Silva"
+      },
+      "birthdayDate":"1988-08-31",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Kimpembe",
+        "lastName":"Silva"
+      },
+      "birthdayDate":"1977-09-23",
+      "genre":"masculine"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status":"Active",
+  "numberOfElements":3,
+  "scheduleDate":"2021-10-18",
+  "location":{
+    "country":"Brazil",
+    "city":"João Pessoa"
+  },
+  "contacts":{
+    "phoneNumber":"765487506",
+    "email":"mariaclarete@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Maria",
+        "lastName":"Clarete"
+      },
+      "birthdayDate":"1999-10-23",
+      "genre":"feminine"
+    },
+    {
+      "name":{
+        "firstName":"Gabriel",
+        "lastName":"Clarete"
+      },
+      "birthdayDate":"1996-04-18",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Davi",
+        "lastName":"Clarete"
+      },
+      "birthdayDate":"2000-03-16",
+      "genre":"masculine"
+    }
+  ]
+}

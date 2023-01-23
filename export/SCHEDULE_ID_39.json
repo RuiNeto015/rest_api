@@ -1,0 +1,31 @@
+{
+  "status":"Active",
+  "numberOfElements":2,
+  "scheduleDate":"2021-12-22",
+  "location":{
+    "country":"Iceland",
+    "city":"Akranes"
+  },
+  "contacts":{
+    "phoneNumber":"239658975",
+    "email":"nathangarrity@gmail.com"
+  },
+  "members":[
+    {
+      "name":{
+        "firstName":"Nathan",
+        "lastName":"Garrity"
+      },
+      "birthdayDate":"1960-09-14",
+      "genre":"masculine"
+    },
+    {
+      "name":{
+        "firstName":"Joana",
+        "lastName":"Garrity"
+      },
+      "birthdayDate":"1965-12-14",
+      "genre":"feminine"
+    }
+  ]
+}
