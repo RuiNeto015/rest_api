@@ -36,5 +36,5 @@ Note: The previous script is only runnable if your IP address is registered on t
 To acess the ChristmasAPI data charts click [here](https://charts.mongodb.com/charts-project-0-entuy/public/dashboards/61d0f46b-2c98-4d5a-8908-1d126b4d8c05).
 
 ### Development Team
-- Simão Santos 8200322@estg.ipp.pt
-- Rui Neto 8200321@estg.ipp.pt
+- Simão Santos simaosantos01@gmail.com
+- Rui Neto ruineto015@gmail.com
